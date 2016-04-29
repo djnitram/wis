@@ -1,0 +1,72 @@
+[
+  {
+    "id":"1",
+    "slug":"home",
+    "title":"Why attend the Summit?",
+    "intro":"<p>An unpredictable economy is an environment for the agile, not the fragile. Join some of the world&#39;s top influencers to explore what governments, universities and business can do to turn ideas into enterprises. This chemistry of connection happens every day in Canada&#39;s leading technology ecosystem.<\/p><p>The growth imperative &mdash; innovation. Talk about it here.<\/p>  ",
+    "body":"<header class=\"text-block-header\"><h3>Presented by:<\/h3><\/header><div class=\"row\"><div class=\"col-sm-6\"><div class=\"organizer\"><a href=\"http:\/\/www.communitech.com\" title=\"Visit Communitech\"><img src=\".\/assets\/dist\/img\/organizers\/communitech-blk.png\" alt=\"Logo for Communitech\"><\/a>    <\/div><\/div><div class=\"col-sm-6\"><div class=\"organizer\"><a href=\"http:\/\/www.uwaterloo.ca\" title=\"Visit University of Waterloo\"><img src=\".\/assets\/dist\/img\/organizers\/uwaterloo-blk.png\" alt=\"Logo for University of Waterloo\"><\/a><\/div><\/div><\/div>"
+  },
+  {
+    "id":"1",
+    "slug":"about",
+    "title":"Why attend the Summit?",
+    "intro":"Join top business, academic and policy decision-makers in one of the world’s leading innovation ecosystems.Hear from influencers, share best practices with enablers and experience first hand what it takes to lift your region into global contention.",
+    "body":"<p><b><i>The Waterloo Innovation Summit is a partnership between the University of Waterloo and Communitech.</i></b></p>"
+  },
+  {
+    "id":"2",
+    "slug":"register",
+    "title":"Secure your spot &mdash; register today",
+    "intro":"Bring your insights and outlook to the table as key influencers share their expertise and analysis about the role of innovation in the growth of the global economy.",
+    "body":"<h2>What the registration fee includes:<\/h2><ul><li><strong>Two days of powerhouse speakers and presenters<\/strong>, sharing what happens when agility meets ability. Among them: <strong>Walter Isaacson<\/strong>, former editor of <em>TIME<\/em>, chairman and CEO of CNN, and acclaimed biographer of Steve Jobs; and <strong>Anita Sands<\/strong>, a change agent with a disruptive career path spanning molecular physics and international banking.<\/li> <li><strong>Intimate fireside chats<\/strong> with some of those on the frontline of enterprise, and spirited, <strong>interactive workshops with thought leaders<\/strong> that reveal the underlying patterns behind the transformative changes that will affect our global economy.<\/li><li>Opportunities for <strong>one-on-one time with the experts<\/strong> and <strong>networking<\/strong> at the opening reception, Wednesday, September 14; networking dinner reception at CIGI on Thursday, September 15; and at the continental breakfasts, lunches and networking breaks each day.<\/li><\/ul><h2>Optional Guided Tour of the Waterloo Region Ecosystem<\/h2><p><em>The chemistry of collaboration and connection: It happens daily in the Waterloo Region tech ecosystem<\/em><\/p><p>Begin your Waterloo Innovation Summit experience with an exclusive tour of the tech innovation ecosystem that Federal Finance Minister Bill Morneau referred to in his 2016 budget as being  &ldquo;home to some of the most brilliant, innovative minds and companies in the world.&rdquo;<\/p><p>Among the highlights of the tour:<\/p><ul><li><b><a href=\"https:\/\/uwaterloo.ca\/\">University of Waterloo<\/a> and <a href=\"https:\/\/uwaterloo.ca\/engineering\/\">Waterloo Engineering<\/a><\/b> &ndash; Canada&rsquo;s most innovative university and its top-ranking engineering school.<\/li><li><b><a href=\"https:\/\/www.communitech.ca\/\" >Communitech Hub<\/a><\/b> &ndash; Enterprise and innovation converge to commercialize in this unique technology centre.<\/li><li><b><a href=\"http:\/\/velocity.uwaterloo.ca\/\">Velocity Garage<\/a><\/b> &ndash; Industry and innovation combine to create cutting-edge technology in this enterprise incubation space.<\/li><li><b><a href=\"https:\/\/www.perimeterinstitute.ca\/\">Perimeter Institute for Theoretical Physics<\/a><\/b> &ndash; Some of the world&rsquo;s best minds in fundamental theoretical physics conduct research that will transform our future.<\/li><\/ul><h2>Accommodations<\/h2><p>A special Summit rate will available at the <a href=\"https:\/\/www.deltahotels.com/Hotels/Delta-Waterloo\">Delta Waterloo<\/a>. Hotel booking information will be provided with registration confirmation.<\/p><h2>Cancellation Policy<\/h2><p>For a refund of 75 per cent, a cancellation request must be submitted before 5 p.m. Eastern Time on Wednesday, September 6, 2016. Refunds are not available after the cancellation deadline.<\/p>"
+  },
+  {
+    "id":"3",
+    "slug":"waterloos-innovation-ecosystem",
+    "title":"Waterloo's Innovation Ecosystem",
+    "intro":"Recognized as one of the fastest growing startup ecosystems in the world, Waterloo Region is home to Canada&rsquo;s most innovative university and a thriving entrepreneurial community. More than 5,000 leaders from around the world visit every year with a view to understanding the causes of its success. This makes Waterloo Region an ideal location to convene global leaders interested in building robust innovation ecosystems.",
+    "body":"<p>Waterloo Region is approximately one hour southwest of Toronto and Pearson International Airport. We are a close-knit community of 550,000 people with more than eight million people living within a 200-kilometre (120-mile) radius. Major lifestyle and economic centres such as New York, Chicago, Boston, Cleveland, Philadelphia and Detroit are all within a day’s driving distance.\/p><p class=\"lead\">The Waterloo Region will host a number of exciting tech and cultural events taking place during the week of the Waterloo Innovation Summit. Visit the links below for more information:<\/p><ul> <li><strong><a href=\"http:\/\/acceleratorcentre.com\">Accelerator Centre Showcase<\/a><\/strong> (Sept. 16)<\/li> <li><strong><a href=\"http:\/\/hackthenorth.com\">Hack The North<\/a><\/strong> (Sept. 18 - 20)<\/li> <li><strong><a href=\"http:\/\/www.regionofwaterloo.ca\/en\/discoveringtheregion\/doorsopenwaterloo.asp?_mid_=17305\">Doors Open Waterloo Region<\/a><\/strong> (Sept. 19)<\/li> <li><strong><a href=\"http:\/\/www.makerexpo.ca\">Maker Expo<\/a><\/strong> (Sept. 19)<\/li><\/ul>"
+  },
+  {
+    "id":"4",
+    "slug":"agenda",
+    "title":"Agenda",
+    "intro":"Our fantastic lineup of Keynotes, Firesides Chats, and Panel Sessions will take place over two days at our main Summit locations. Thursday September 17 sessions will take place at the University of Waterloo&rsquo;s Mike & Ophelia Lazaridis Quantum-Nano Centre. Friday September 18 sessions will take place at the Communitech Hub. Shuttles will be available for attendees for travel to various locations for Receptions, the Interactive Playground, and the Quantum Symphony performance. Shuttles will also be available from the Delta Waterloo for travel to and from the conference venues.",
+    "body":null
+  },
+  {
+    "id":"5",
+    "slug":"speakers",
+    "title":"Speakers",
+    "intro":"Innovation is imperative for growth. New ideas and new tools are essential to building strong foundations for global economic growth. The Waterloo Innovation Summit is the distinctive forum where the knowledge and experience of the world&rsquo;s top business leaders, policy-makers and academics can be shared. Join us.",
+    "body":null
+  },
+  {
+    "id":"6",
+    "slug":"sponsors",
+    "title":"Sponsors",
+    "intro":"Innovation amplifies growth and elevates businesses into the ranks of the extraordinary. At the Waterloo Innovation Summit, some of the world&rsquo;s top influencers gather to share how to turn ideas into enterprises. The innovation imperative is the daily responsibility of Canada&rsquo;s leading technology ecosystem.",
+    "body":null
+  },
+  {
+    "id":"7",
+    "slug":"styleguide",
+    "title":"Style Guide",
+    "intro":null,
+    "body":null
+  },
+  {
+    "id":"8",
+    "slug": "videos",
+    "title": "Videos",
+    "intro": "Want to discover the keys to leading your business into the ranks of the extraordinary? Experience the video highlights of three invigorating days of events and conversations at the 2015 Waterloo Innovation Summit, and then reserve your place at the 2016 Summit.",
+    "body":"<div class=\"container sponsors\"><div class=\"row\"><header class=\"sponsors-header\"><h2>2015 HIGHLIGHTS<\/h2><\/header><\/div><\/div>"
+  },
+    {
+    "id":"9",
+    "slug":"vip",
+    "title":"Secure your VIP position &mdash; register today",
+    "intro":"Bring your insights and outlook to the table as key influencers share their expertise and analysis about the role of innovation in the growth of the global economy.",
+    "body":"<h2>What the registration fee includes:<\/h2><ul><li><strong>Two days of powerhouse speakers and presenters<\/strong>, sharing what happens when agility meets ability. Among them: <strong>Walter Isaacson<\/strong>, former editor of <em>TIME<\/em>, chairman and CEO of CNN, and acclaimed biographer of Steve Jobs; and <strong>Anita Sands<\/strong>, a change agent with a disruptive career path spanning molecular physics and international banking.<\/li> <li><strong>Intimate fireside chats<\/strong> with some of those on the frontline of enterprise, and spirited, <strong>interactive workshops with thought leaders<\/strong> that reveal the underlying patterns behind the transformative changes that will affect our global economy.<\/li><li>Opportunities for <strong>one-on-one time with the experts<\/strong> and <strong>networking<\/strong> at the opening reception, Wednesday, September 14; networking dinner reception at CIGI on Thursday, September 15; and at the continental breakfasts, lunches and networking breaks each day.<\/li><\/ul><h2>Optional Guided Tour of the Waterloo Region Ecosystem<\/h2><p><em>The chemistry of collaboration and connection: It happens daily in the Waterloo Region tech ecosystem<\/em><\/p><p>Begin your Waterloo Innovation Summit experience with an exclusive tour of the tech innovation ecosystem that Federal Finance Minister Bill Morneau referred to in his 2016 budget as being  &ldquo;home to some of the most brilliant, innovative minds and companies in the world.&rdquo;<\/p><p>Among the highlights of the tour:<\/p><ul><li><b><a href=\"https:\/\/uwaterloo.ca\/\">University of Waterloo<\/a> and <a href=\"https:\/\/uwaterloo.ca\/engineering\/\">Waterloo Engineering<\/a><\/b> &ndash; Canada&rsquo;s most innovative university and its top-ranking engineering school.<\/li><li><b><a href=\"https:\/\/www.communitech.ca\/\" >Communitech Hub<\/a><\/b> &ndash; Enterprise and innovation converge to commercialize in this unique technology centre.<\/li><li><b><a href=\"http:\/\/velocity.uwaterloo.ca\/\">Velocity Garage<\/a><\/b> &ndash; Industry and innovation combine to create cutting-edge technology in this enterprise incubation space.<\/li><li><b><a href=\"https:\/\/www.perimeterinstitute.ca\/\">Perimeter Institute for Theoretical Physics<\/a><\/b> &ndash; Some of the world&rsquo;s best minds in fundamental theoretical physics conduct research that will transform our future.<\/li><\/ul><h2>Accommodations<\/h2><p>A special Summit rate will available at the <a href=\"https:\/\/www.deltahotels.com/Hotels/Delta-Waterloo\">Delta Waterloo<\/a>. Hotel booking information will be provided with registration confirmation.<\/p><h2>Cancellation Policy<\/h2><p>For a refund of 75 per cent, a cancellation request must be submitted before 5 p.m. Eastern Time on Wednesday, September 6, 2016. Refunds are not available after the cancellation deadline.<\/p>"
+  }
+]

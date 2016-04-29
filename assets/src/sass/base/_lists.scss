@@ -1,0 +1,27 @@
+ul {
+  .post-content &,
+  .session-details-body & {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+li {
+  .post-content &,
+  .session-details-body & {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-light;
+    background: transparent url('../img/bullet.png') 16px 9px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 44px;
+
+    ul {
+      margin-top: 20px;
+
+      li {
+        background-position: 0px 9px;
+        padding-left: 24px;
+      }
+    }
+  }
+}

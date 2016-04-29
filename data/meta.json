@@ -1,0 +1,20 @@
+{
+    "home": [
+        {
+            "metaTitle": "2015 Waterloo Innovation Summit",
+            "metaKeywords": "",
+            "metaDescription": "Latest info on the Waterloo Innovation Summit, Sept 16-18 2015 in Waterloo, Canada. What Drives Leading Innovation Ecosystems. Keynote speaker Steve Blank.",
+            "metaFollow": "index,follow",
+            "canonicalLink": "https:\/\/waterlooinnovationsummit.com"
+        }
+    ],
+    "vip": [
+        {
+            "metaTitle": "2015 Waterloo Innovation Summit",
+            "metaKeywords": "",
+            "metaDescription": "Latest info on the Waterloo Innovation Summit, Sept 16-18 2015 in Waterloo, Canada. What Drives Leading Innovation Ecosystems. Keynote speaker Steve Blank.",
+            "metaFollow": "noindex,follow",
+            "canonicalLink": "https:\/\/waterlooinnovationsummit.com\/vip"
+        }
+    ]
+}

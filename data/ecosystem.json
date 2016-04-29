@@ -1,0 +1,122 @@
+{
+    "Influencers-on-Waterloo-Region": [
+        {
+            "name": "jack-dorsey",
+            "cite": "<span>Jack Dorsey<\/span>, CEO of Square and interim CEO of Twitter",
+            "type": "influencers",
+            "size": "wis-large",
+            "image-overlay": null,
+            "content": "<p>Waterloo has a similar energy to Silicon Valley. The thing that works in Silicon Valley is the sense of community, support and mentorship and Waterloo has that same sort of feeling.<\/p>"
+        },
+        {
+            "name": "alexis-ohanian",
+            "cite": "<span>Alexis Ohanian<\/span>, Reddit",
+            "type": "influencers",
+            "size": "wis-small",
+            "image-overlay": null,
+            "content": "<p>To actually see what&rsquo;s going on here, it&rsquo;s impressive, and it&rsquo;s certainly not something I&rsquo;m going to forget anytime soon.<\/p>"
+        },
+        {
+            "name": "roger-penske",
+            "cite": "<span>Roger Penske<\/span>, CEO Penske Corporation",
+            "type": "influencers",
+            "size": "wis-small",
+            "image-overlay": "<p>There are a lot of winners in this room. We&rsquo;ve already invested in some of the startups we met with this morning.<\/p>",
+            "content": "<p>There are a lot of winners in this room. We\u2019ve already invested in some of the startups we met with this morning.<\/p>"
+        }
+    ],
+    "Influencers-on-UWaterloo": [
+        {
+            "name": "sam-altman",
+            "cite": "<span>Sam Altman<\/span>, President, Y Combinator", 
+            "type": "influencers",
+            "size": "wis-large",
+            "image-overlay": "<p><img src=\".\/assets\/dist\/img\/nyt-logo.png\" alt=\"NewYork Times\" alt=\" New York Times Logo\"\/><\/p><p class=\"lead\">When asked which school stood out, I was sure of the name I&rsquo;d hear next: Stanford.<\/p>",
+            "content": "<p>The University of Waterloo.\u201d It&rsquo;s a public school in the Canadian province of Ontario, and as of last summer, it was the source of eight proud ventures that Y Combinator had helped along. &ldquo; To my chagrin, &rdquo; Altman told me, &rdquo;Stanford has not had a really great track record&ldquo;.<\/p>"
+        },
+        {
+            "name": "david-cohen",
+            "cite": "<span>David Cohen<\/span>, TechStars",
+            "type": "influencers",
+            "size": "wis-small",
+            "image-overlay": "<p>overlay image text and html<\/p>",
+            "content": "<p>There&rsquo;s incredible technical talent. The University of Waterloo is mind-blowing. Talent appears to want to stay here.<\/p>"
+        },
+        {
+            "name": "paul-graham",
+            "cite": "<span>Paul Graham<\/span>, Y Combinator",
+            "type": "influencers",
+            "size": "wis-small",
+            "image-overlay": null,
+            "content": "<p>Something is going on in Waterloo, because the applications we get from Waterloo students are better than those we get from students of any other university.<\/p>"
+        }
+    ],
+    "visionaries": [
+        {
+            "name": "val-odonovan",
+            "type": "visionaries",
+            "visions": {
+                "v1": "COM DEV",
+                "v2": "Satellite Communications"
+            }
+        },
+        {
+            "name": "wes-graham",
+            "type": "visionaries",
+            "visions": {
+                "v1": "Watcom",
+                "v2": "C++ Compilers",
+                "v3": "Fortran"
+            }
+        },
+        {
+            "name": "frank-tompa",
+            "type": "visionaries",
+            "visions": {
+                "v1": "Open Text",
+                "v2": "Search"
+            }
+        },
+        {
+            "name": "mike-lazaridis",
+            "type": "visionaries",
+            "visions": {
+                "v1": "RIM",
+                "v2": "Smartphones"
+            }
+        },
+        {
+            "name": "arokia-nathan",
+            "type": "visionaries",
+            "visions": {
+                "v1": "IGNIS",
+                "v2": "LED Flat Panels"
+            }
+        },
+        {
+            "name": "eric-migicovsky",
+            "type": "visionary",
+            "visions": {
+                "v1": "Pebble",
+                "v2": "Wearables"
+            }
+        },
+        {
+            "name": "stephen-lake",
+            "type": "visionary",
+            "visions": {
+                "v1": "Thalmic",
+                "v2": "Biosensor",
+                "v3": "Gesture Control"
+            }
+        }
+    ],
+    "map": [
+        {
+            "name": "summit-map",
+            "type": "summitmap",
+            "size": null,
+            "content": "<div id=\"wisEcoMap\" class=\"wis-eco-map\"><\/div>"
+        }
+    ]
+}

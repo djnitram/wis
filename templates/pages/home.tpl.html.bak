@@ -1,0 +1,208 @@
+<section class="home-intro" ng-if="config.stage == 1 || (config.stage == 2 && !vm.keynoteIntro)">
+  <div class="home-intro-screen"></div>
+  <div class="container">
+    <div class="home-intro-header">
+      <h1>What drives leading innovation ecosystems</h1>
+    </div>
+    <div class="home-intro-main">
+      <p class="home-intro-keynotes">Keynotes by</p>
+
+      <div class="home-intro-speakers-list">
+        <span ng-repeat="speaker in vm.keynoteSpeakers"><a href="" ng-click="vm.showSpeaker(speaker); $event.preventDefault()">{{speaker.firstName}} <b>{{speaker.lastName}}</b></a></span>
+      </div>
+    </div>
+    <div class="home-intro-footer">
+      <a href="#" ui-sref="app.blog" class="highlights-link">See highlights from the 2015 Waterloo Innovation Summit</a>
+    </div>
+  </div>
+</section>
+
+<section class="home-intro session-mod" ng-if="config.stage == 2 && vm.keynoteIntro">
+  <div class="home-intro-screen"></div>
+  <div class="container">
+    <div class="home-intro-featured">{{vm.session.date}}</div>
+    <div class="home-intro-header">
+      <h1 class="home-intro-brand-primary"><a href="" ui-sref="app.agenda({id: vm.session.id})"><span ng-bind-html="vm.session.title | sanitize"></span></a></h1>
+      <h3 class="home-intro-time">{{vm.session.time}}</h3>
+    </div>
+    <div class="home-intro-footer">
+      <a href="#" class="btn btn-primary btn-lg" ng-show="vm.moreSessions" ng-click="vm.setNextSession(); $event.preventDefault()">Coming Up Next <i class="fa fa-caret-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<div class="container" ng-if="config.stage == 1">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="home-content">
+        <h2 class="home-content-title">{{vm.page.title}}</h2>
+        <p class="home-content-intro">{{vm.page.intro}}</p>
+        <div class="home-content-body" ng-bind-html="vm.page.body | sanitize"></div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="home-news">
+        <h2 class="home-news-title">News / Blog</h2>
+
+        <ul class="list-unstyled">
+          <li ng-repeat="post in vm.posts">
+            <article class="post brief-mod">
+              <header class="post-header">
+                <date>{{post.published | date: 'longDate'}}</date>
+                <h2><a href="" ui-sref="app.blog.show({id: post.id})" ng-bind-html="post.title | sanitize"></a></h2>
+              </header>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="text-block home-mod" ng-if="config.stage == 2">
+  <div class="container">
+    <header class="text-block-header">
+      <h2>{{::vm.page.title}}</h2>
+    </header>
+    <div class="home-content-body">
+      <div ng-bind-html="::vm.page.intro | sanitize"></div>
+      <div ng-bind-html="::vm.page.body | sanitize"></div>
+    </div>
+  </div>
+</section>
+
+<section class="text-block newsletter-mod" ng-if="config.stage == 2">
+  <div class="container">
+    <div class="home-content-body">
+      <p class="home-content-intro">Stay informed by signing up for Waterloo Innovation Summit updates as soon as they become available — including 2016 registration details.</p>
+      <article class="newsletter">
+        <div class="newsletter-main">
+          <form class="form newsletter-form" action="https://uwaterloo.us11.list-manage.com/subscribe/post" method="POST">
+          <input type="hidden" name="u" value="f5194df42b6fc63ac2f0875eb">
+          <input type="hidden" name="id" value="e72507d8df">
+          <input type="hidden" name="MERGE2" value="Yes">
+          <input type="hidden" name="MERGE1" value="">
+            <div class="form-group newsletter-input">
+              <label for="email-{{newsletterId}}" class="sr-only">Email Address</label>
+              <input name="MERGE0" type="email" class="form-control" id="email-{{::newsletterId}}" placeholder="Your email address">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block newsletter-button">Submit</button>
+          </form>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="highlight-videos">
+  <div class="container">
+    <header class="highlight-videos-header">
+      <h2>2015 Highlights</h2>
+    </header>
+
+    <div class="row">
+      <p class="highlight-videos-intro">Watch video highlights from three days of interactive events, high-impact panels, and powerhouse speakers.</p>
+    </div>
+
+    <div class="row">
+      <div ng-repeat="video in vm.highlightVideos" class="col-md-3">
+        <div class='embed-container'>
+          <iframe ng-src="{{video.video_url|trustsrc}}" frameborder='0' allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer class="highlight-videos-footer">
+      <a href="/videos" class="btn btn-primary">Watch more highlights</a>
+    </footer>
+  </div>
+</section>
+
+<div class="container" ng-if="config.stage == 2">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="home-news stage-2-mod">
+        <h2 class="home-news-title sr-only">News / Blog</h2>
+
+        <ul class="list-unstyled">
+          <li>
+            <article class="post featured-brief-mod" ng-if="vm.featuredPost">
+              <div class="background" style="background-image: url({{::vm.featuredPost.featuredImage}})"></div>
+              <div class="screen"></div>
+              <div class="post-featured-label">Featured</div>
+              <div class="wrap">
+                <header class="post-header">
+                  <date>{{::vm.featuredPost.published | date: 'longDate'}}</date>
+                  <h2><a href="" ui-sref="app.blog.show({id: vm.featuredPost.id})" ng-bind-html="::vm.featuredPost.title | sanitize"></a></h2>
+                </header>
+                <footer class="post-footer">
+                  <a href="" ui-sref="app.blog.show({id: vm.featuredPost.id})">Read More</a>
+                </footer>
+              </div>
+            </article>
+          </li>
+          <li ng-repeat="post in vm.posts">
+            <article class="post brief-mod">
+              <header class="post-header">
+                <date>{{::post.published | date: 'longDate'}}</date>
+                <h2><a href="" ui-sref="app.blog.show({id: post.id})" ng-bind-html="::post.title | sanitize"></a></h2>
+              </header>
+            </article>
+          </li>
+        </ul>
+        <a href="" ui-sref="app.blog" class="btn btn-lg btn-primary btn-block">See all our stories</a>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <article class="tint-widget">
+        <header class="tint-widget-header">
+          <h2 class="tint-widget-title">From the Summit</h2>
+        </header>
+        <div class="tint-widget-main">
+          <script async src="https://d36hc0p18k1aoc.cloudfront.net/pages/a5b5e4.js" type="text/javascript-lazy"></script>
+          <div class="a5b5e4" data-id="WINS15" data-columns="" data-mobilescroll="true" data-infinitescroll="true"  style="height:960px;width:100%;"><div class="spinner"><i class="fa fa-circle-o-notch fa-spin"></i></div></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<section class="home-speakers" ng-if="config.phase == 1">
+  <div class="container">
+    <header class="home-speakers-header">
+      <h2>This year's speakers</h2>
+    </header>
+    <div class="home-speakers-main">
+      <div class="row">
+        <div ng-repeat="speaker in vm.featuredSpeakers" class="col-md-3">
+          <div ng-include= " 'templates/components/speaker.teaser.tpl.html' "></div>
+        </div>
+        <div class="col-md-3">
+          <a href="" ui-sref="app.speakers" class="add-more-button">
+            <div class="add-more-top">
+              <i class="fa fa-plus"></i>
+            </div>
+            <div class="add-more-text"><span class="and">And</span> More</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-map">
+  <header class="home-map-header">
+    <div class="container">
+      <h2>Location</h2>
+    </div>
+  </header>
+  <div class="home-map-main">
+    <div id="map" aria-labelled-by="map-address">
+      <div ui-map="map" ui-options="vm.mapOptions" class="map-canvas"></div>
+    </div>
+    <address id="map-address" class="sr-only">
+      University of Waterloo<br>
+      200 University Ave W, Waterloo, ON N2L 3G1
+    </adress>
+  </div>
+</section>

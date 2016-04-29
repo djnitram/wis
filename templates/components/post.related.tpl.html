@@ -1,0 +1,11 @@
+<article class="post related-mod">
+  <header class="post-header">
+    <div class="post-thumbnail">
+      <a href="" ui-sref="app.blog.show({id: post.id})" title="{{post.title}}">
+        <img ng-src="{{::post.relatedImage}}" alt="" role="presentation">
+      </a>
+    </div>
+    <h4><a href="" ui-sref="app.blog.show({id: post.id})">{{::post.title}}</a></h4>
+    <h5>{{::post.subtitle}}</h5>
+  </header>
+</article>

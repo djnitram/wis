@@ -1,0 +1,20 @@
+<article class="post featured-mod post-{{post.id}}" style="background-image: url({{post.featuredImage}})">
+  <div class="post-screen"></div>
+  <div class="container">
+    <header class="post-header">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><a href="#" ui-sref="app.blog.show({id: post.id})" ng-bind-html="post.title | sanitize"></a></h1>
+          <h3 ng-if="post.subtitle">{{post.subtitle}}</h2>
+        </div>
+      </div>
+    </header>
+    <footer class="post-footer">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <a href="#" ui-sref="app.blog.show({id: post.id})" class="button post-footer-button">Read Post</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</article>

@@ -1,0 +1,105 @@
+h1 {
+  font-size: $font-size-h1;
+  font-weight: $font-weight-h1;
+
+  @media screen and (max-width: $container-tablet) {
+    font-size: $font-size-h3;
+  }
+}
+
+h2 {
+  font-size: $font-size-h2;
+  font-weight: $font-weight-h2;
+
+  @media screen and (max-width: $container-tablet) {
+    font-size: $font-size-h4;
+  }
+}
+
+h3 {
+  font-size: $font-size-h3;
+  font-weight: $font-weight-h3;
+
+  @media screen and (max-width: $container-tablet) {
+    font-size: $font-size-h5;
+  }
+}
+
+h4 {
+  font-size: $font-size-h4;
+  font-weight: $font-weight-h4;
+
+  @media screen and (max-width: $container-tablet) {
+    font-size: $font-size-h6;
+  }
+}
+
+h5 {
+  font-size: $font-size-h5;
+  font-weight: $font-weight-h5;
+
+  @media screen and (max-width: $container-tablet) {
+    font-size: $font-size-medium;
+  }
+}
+
+h6 {
+  font-size: $font-size-h6;
+  font-weight: $font-weight-h6;
+
+  @media screen and (max-width: $container-tablet) {
+    font-size: $font-size-small;
+  }
+}
+
+p, li, dd, dt, blockquote {
+  .post-content & {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-light;
+
+    &.lead {
+      font-size: $font-size-large;
+      font-weight: $font-weight-normal;
+    }
+
+    &.caption {
+      font-size: $font-size-extra-small;
+      font-style: italic;
+    }
+
+    @media screen and (max-width: $container-tablet) {
+      font-size: 16px;
+
+      &.lead {
+        font-size: $font-size-small;
+      }
+
+      &.caption {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+p + p.caption {
+  margin-top: -$grid-gutter-width;
+}
+
+a {
+  color: #2E79B9;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover,
+  &:focus {
+    color: #2E79B9;
+    text-decoration: underline;
+  }
+}
+
+a:focus {
+  outline: none;
+}

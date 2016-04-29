@@ -1,0 +1,14 @@
+<article class="author">
+  <header class="author-header">
+    <div class="author-avatar">
+      <img src="{{::author.avatar}}" alt="Picture of {{::author.name}}">
+    </div>
+    <div class="author-meta">
+      <h5 class="author-title">{{::author.name}}</h5>
+      <h6 class="author-handle"><a href="https://twitter.com/{{::author.handle}}">@{{::author.handle}}</a></h6>
+    </div>
+  </header>
+  <div class="author-main">
+    <p>{{::author.bio}} <a href="#" ng-click="vm.showProfile(author); $event.preventDefault()">View Profile</a></p>
+  </div>
+</article>

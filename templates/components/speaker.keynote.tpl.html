@@ -1,0 +1,17 @@
+<article class="speaker keynote-mod">
+  <a href="#" ng-click="vm.showSpeaker(speaker); $event.preventDefault()">
+    <header class="speaker-header">
+      <div class="speaker-thumbnail">
+        <img ng-src="{{::speaker.featuredAvatar}}" alt="{{::speaker.name}}">
+        <div class="speaker-thumbnail-screen">
+          <span class="speaker-thumbnail-screen-text">View speaker's bio</span>
+        </div>
+      </div>
+      <h5><span class="speaker-first-name">{{::speaker.firstName}}</span> <span class="speaker-last-name">{{::speaker.lastName}}</span></h5>
+      <h6><span class="speaker-job-title" ng-bind-html="::speaker.jobTitle | sanitize"></span><span ng-if="speaker.company">, <span class="speaker-company">{{::speaker.company}}</span></span></h6>
+    </header>
+  </a>
+  <footer class="speaker-footer" ng-if="speaker.handle">
+    <div class="speaker-handle"><a href="https://twitter.com/{{::speaker.handle}}">@{{::speaker.handle}}</a></div>
+  </footer>
+</article>

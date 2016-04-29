@@ -1,0 +1,22 @@
+<div class="modal-speaker">
+  <a href="#" ng-click="close(); $event.preventDefault()" class="modal-close" data-dismiss="modal" aria-label="Close">Close <span class="modal-close-faux-button"></span></a>
+
+  <div class="modal-body">
+    <div class="modal-speaker-card">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="modal-speaker-card-thumbnail">
+            <img ng-src="{{::speaker.featuredAvatar}}" alt="{{::speaker.name}}">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="modal-speaker-card-details">
+            <h2 class="modal-speaker-card-title">{{::speaker.firstName}} <b>{{::speaker.lastName}}</b></h2>
+            <div class="modal-speaker-card-bio" ng-bind-html="::speaker.bio | sanitize"></div>
+            <div class="modal-speaker-card-handle" ng-if="speaker.handle"><a href="https://twitter.com/{{::speaker.handle}}">@{{::speaker.handle}}</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

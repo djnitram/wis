@@ -1,0 +1,63 @@
+.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-dots li {
+  width: 16px;
+  height: 16px;
+
+  @media screen and (max-width: $container-tablet) {
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 4px;
+    height: 4px;
+  }
+}
+
+.slick-dots li button {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+
+  @media screen and (max-width: $container-tablet) {
+    width: 8px;
+    height: 8px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 4px;
+    height: 4px;
+  }
+}
+
+.slick-dots li button:before {
+  background-color: transparent;
+  border: 2px solid #767676;
+  overflow: hidden;
+  text-indent: -9999em;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  @include transition(all .3s linear);
+
+  @media screen and (max-width: $container-tablet) {
+    border: 1px solid #767676;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+  }
+
+  @media screen and (max-width: 479px) {
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #767676;
+}

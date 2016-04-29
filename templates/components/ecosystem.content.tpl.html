@@ -1,0 +1,161 @@
+<div class="ecosystem">
+  <div>
+    <tabset justified="true">
+      <tab heading="Influencers on Waterloo Region">
+        <div class="influencers tab">
+          <div class="influencers-photo">
+            <img src=" ./assets/dist/img/influencers/jack-dorsey.jpg" alt="Jack Dorsey">
+          </div>
+          <div class="quote quote-main">
+            <span class="quote-text">Waterloo has a similar energy to Silicon Valley. The thing that works in Silicon Valley is the sense of community, support and mentorship and Waterloo has that same sort of feeling.</span>
+            <span class="quote-author">&mdash; <b>Jack Dorsey</b>, CEO of Square and founder of Twitter</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="quote">
+                <span class="quote-text">To actually see what's going on here, it's impressive, and it's certainly not something I'm going to forget anytime soon.</span>
+                <span class="quote-author">&mdash; <b>Alexis Ohanian</b>, Reddit</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="quote">
+                <span class="quote-text">There are a lot of winners in this room. We've already invested in some of the startups we met with this morning.</span>
+                <span class="quote-author">&mdash; <b>Roger Penske</b>, CEO Penske Corporation</span>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </tab>
+
+      <tab heading="Influencers on UWaterloo">
+        <div class="influencers tab">
+          <div class="influencers-photo">
+            <img src="./assets/dist/img/influencers/sam-altman.jpg" alt="Sam Altman">
+            <div class="callout">
+              <img src="./assets/dist/img/nyt-logo.png" alt="New York Times">
+              <p>When asked which school stood out, I was sure of the name I’d hear next: Stanford.</p>
+            </div>
+          </div>
+          <div class="quote quote-main">
+            <span class="quote-text">The University of Waterloo." It's a public school in the Canadian province of Ontario, and as of last summer, it was the source of eight proud ventures that Y Combinator had helped along. "To my chagrin," Altman told me, "Stanford has not had a really great track record.</span>
+            <span class="quote-author">&dash; <b>Sam Altman</b>, President, Y Combinator</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="quote">
+                <span class="quote-text">There's incredible technical talent. The University of Waterloo is mind-blowing. Talent appears to want to say here.</span>
+                <span class="quote-author">&mdash; <b>David Cohen</b>, TechStars</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="quote">
+                <span class="quote-text">Something is going on in Waterloo, because the applications we get from Waterloo students are better than those we get from students of any other university.</span>
+                <span class="quote-author">&mdash; <b>Paul Graham</b>, Y Combinator</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tab>
+
+      <tab heading="Visionaries">
+        <div class="visionaries tab">
+          <div class="row">
+            <div class="col-md-3">
+              <article class="visionary">
+                <img src=" ./assets/dist/img/visionaries/val-odonovan.jpg" alt="Val O'Donovan">
+                <h5>Val O'Donovan</h5>
+                <h6>Com Dev</h6>
+                <div class="achievements">Satellite Communications</div>
+              </article>
+            </div>
+            <div class="col-md-3">
+              <article class="visionary">
+                <img src=" ./assets/dist/img/visionaries/wes-graham.jpg" alt="Wes Graham">
+                <h5>Wes Graham</h5>
+                <h6>Watcom</h6>
+                <div class="achievements">C++ Compilers<br>Fortran</div>
+              </article>
+            </div>
+            <div class="col-md-3">
+              <article class="visionary">
+                <img src=" ./assets/dist/img/visionaries/frank-tompa.jpg" alt="Frank Tompa">
+                <h5>Frank Tompa</h5>
+                <h6>Open Text</h6>
+                <div class="achievements">Search</div>
+              </article>
+            </div>
+            <div class="col-md-3">
+              <article class="visionary">
+                <img src=" ./assets/dist/img/visionaries/mike-lazaridis.jpg" alt="Mike Lazaridis">
+                <h5>Mike Lazaridis</h5>
+                <h6>RIM</h6>
+                <div class="achievements">Smartphones</div>
+              </article>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <article class="visionary">
+                <img src=" ./assets/dist/img/visionaries/arokia-nathan.jpg" alt="Arokia Nathan">
+                <h5>Arakoia Nathan</h5>
+                <h6>IGNIS</h6>
+                <div class="achievements">LED Flat Panels</div>
+              </article>
+            </div>
+            <div class="col-md-3">
+              <article class="visionary">
+                <img src=" ./assets/dist/img/visionaries/eric-migicovsky.jpg" alt="Eric Migicovsky">
+                <h5>Eric Migicovsky</h5>
+                <h6>Pebble</h6>
+                <div class="achievements">Wearables</div>
+              </article>
+            </div>
+            <div class="col-md-3">
+              <article class="visionary">
+                <img src=" ./assets/dist/img/visionaries/stephen-lake.jpg" alt="Stephen Lake">
+                <h5>Stephen Lake</h5>
+                <h6>Biosensor</h6>
+                <div class="achievements">Biosensor<br>Gesture Control</div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </tab>
+
+      <tab heading="Map" ng-click="vm.redrawMap()">
+        <div class="map tab">
+          <div id="map" aria-labelled-by="map-address">
+            <div ui-map="vm.map" ui-options="vm.mapOptions" class="map-canvas"></div>
+          </div>
+        </div>
+      </tab>
+    </tabset>
+  </div>
+
+  <section class="regional-information">
+    <header class="regional-information-header">
+      <h2> Waterloo Region Information</h2>
+    </header>
+
+    <div class="row">
+      <div class="col-md-6">
+        <p>Waterloo Region is approximately one hour southwest of Toronto and Pearson International Airport. We are a close-knit community of 550,000 people with more than eight million people living within a 200-kilometre (120-mile) radius. Major lifestyle and economic centres such as New York, Chicago, Boston, Cleveland, Philadelphia and Detroit are all within a day’s driving distance.</p>
+        <p>The Waterloo Region will host a number of exciting tech and cultural events taking place during the week of the Waterloo Innovation Summit. Visit the links below or visit <a href="https://www.facebook.com/GeekWeekWR">GeekWeek Waterloo Region</a> for more information:</p>
+        <ul>
+          <li><a href="http://waterloo.hackernest.com/events/hackernest-kitchener-waterloo-september-tech-social-3/">HackerNest KW</a> (Sept. 14)</li>
+          <li><a href="http://acceleratorcentre.com">Accelerator Centre Showcase</a> (Sept. 16)</li>
+          <li><a href="https://www.facebook.com/events/487582864733663/">Nerd Nite KW</a> (Sept. 16)</li>
+          <li><a href="http://hackthenorth.com">Hack The North</a> (Sept. 18 - 20)</li>
+          <li><a href="https://www.eventbrite.ca/e/communitech-centre-stage-tickets-17750147168">Communitech Rev Centre Stage</a> (Sept. 18)</li>
+          <li><a href="http://www.regionofwaterloo.ca/en/discoveringtheregion/doorsopenwaterloo.asp?_mid_=17305">Doors Open Waterloo Region</a> (Sept. 19)</li>
+          <li><a href="http://www.makerexpo.ca">Maker Expo</a> (Sept. 19)</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src=" ./assets/dist/img/waterloo-proximity-map.png" alt="Waterloo Proximity Map" class="proximity-map"/>
+      </div>
+    </div>
+  </section>
+</div>

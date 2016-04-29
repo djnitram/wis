@@ -1,0 +1,40 @@
+{{page=vm.page;""}}
+<div ng-include=" 'templates/components/page.masthead.tpl.html' "></div>
+
+<div class="post full-mod">
+  <div class="post-main page-mod">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="post-content" ng-bind-html="vm.page.body | sanitize" ng-hide="$stateParams.slug == 'waterloos-innovation-ecosystem'"></div>
+
+          <div ng-show="$stateParams.slug == 'waterloos-innovation-ecosystem'" ng-include=" 'templates/components/ecosystem.content.tpl.html' "></div>
+          <div ng-show="$stateParams.slug == 'styleguide'" ng-include=" 'templates/components/styleguide.content.tpl.html' "></div>
+          <div ng-if="$stateParams.slug == 'register'" style="text-align:center">
+            <h4>Sold out this year, sign up for updates on next year’s Waterloo Innovation Summit</h4>
+            <div class="register-page-newsletter" ng-include=" 'templates/components/newsletter.tpl.html' " ng-init=" newsletterTitle='Subscribe for Updates'; newsletterId='1'"></div>
+          </div>
+          <section class="all-videos" ng-show="vm.videos">
+            <div class="loader" ng-show="vm.loadingVideos">
+              <i class="fa fa-circle-o-notch fa-spin"></i>
+            </div>
+            <div class="row" ng-hide="vm.loadingVideos">
+              <ul class="list-unstyled videos-list">
+                <li ng-repeat="video in vm.videos">
+                  <div class='embed-container'>
+                    <iframe ng-src="{{video.video_url|trustsrc}}" frameborder='0' allowfullscreen></iframe>
+                  </div>
+                  <div class="embed-title">{{video.title}}</div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="col-md-4" ng-hide="true">
+          <div ng-include=" 'templates/components/newsletter.tpl.html' " ng-init="newsletterId=2"></div>
+          <div ng-include=" 'templates/components/ad.tpl.html' "></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

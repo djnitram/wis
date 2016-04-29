@@ -1,0 +1,201 @@
+[
+  {
+    "id": "1",
+    "level": "Growth Sponsor",
+    "sponsors": [
+      {
+        "id": "1",
+        "name": "Lazaridis  Institute",
+        "fullname": "The Lazaridis Institute for the Management of Technology Enterprises",
+        "link": "http:\/\/www.wlu.ca\/lazaridis-school-of-business-and-economics\/lazaridis-institute\/index.html",
+        "url": "http:\/\/www.wlu.ca\/lazaridis-school-of-business-and-economics\/lazaridis-institute\/index.html",
+        "logo": " ./assets/dist/img/sponsors/lazaridis-institute.png",
+        "level": "Growth Sponsor",
+        "role": "sponsor",
+        "description": "<p>The Lazaridis Institute for the Management of Technology Enterprises was created in 2015 to support growth-oriented Canadian technology companies. Developed through investments by Mike Lazaridis and the Government of Ontario, the Lazaridis Institute empowers current and emerging technology firms to scale rapidly into globally competitive organizations. The Lazaridis Institute is based at Wilfrid Laurier University in Waterloo, part of the Waterloo Region-Toronto Tech Corridor.<\/p>"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "level": "Innovation Sponsor",
+    "sponsors": [
+      {
+        "id": "2",
+        "name": "IBM",
+        "fullname": "IBM",
+        "link": "http:\/\/www.ibm.com",
+        "url": "http:\/\/www.ibm.com",
+        "logo": " ./assets/dist/img/sponsors/ibm-alt.png",
+        "level": "Innovation Sponsor",
+        "role": "sponsor",
+        "description": "<p>IBM is one of the largest technology, services and consulting companies in Canada, where we maintain a strong and unique presence. We are highly&ndash;skilled professionals from across the country and together we are working to build a world where intelligence is infused into the systems and processes that make business and society work better. We attract, develop and retain highly skilled Canadians, engaging them in meaningful work that impacts not just Canada, but the world. Today, IBM is more than a hardware, software and services provider, yet we remain true to our heritage as a team of collaborative forward-thinkers, focused on making business and society work better. We are part of the fabric of everyday life. We stand for world&ndash;changing progress.<\/p>"
+      },
+      {
+        "id": "3",
+        "name": "Thomson-Reuters",
+        "fullname": "Thomson Reuters&#8482;",
+        "link": "http:\/\/www.thomsonreuters.com",
+        "url": "http:\/\/www.thomsonreuters.com",
+        "logo": " ./assets/dist/img/sponsors/thomson-reuters-alt.png",
+        "level": "reception",
+        "role": "sponsor",
+        "description": "<p>Thomson Reuters&#8482; is the world&rsquo;s leading source of intelligent information for businesses and professionals. We combine industry expertise with innovative technology to deliver critical information to leading decision makers in the financial and risk, legal, tax and accounting, intellectual property and science and media markets, powered by Reuters, the world&rsquo;s most trusted news organization.<\/p>"
+      },
+      {
+        "id": "4",
+        "name": "BDC",
+        "fullname": "Business Development Bank of Canada",
+        "link": "http:\/\/www.bdc.ca\/",
+        "url": "http:\/\/www.bdc.ca\/",
+        "logo": " ./assets/dist/img/sponsors/bdc-alt.png",
+        "level": "luncheon",
+        "role": "sponsor",
+        "description": "<p> A financial institution owned by the Government of Canada, we support over 30,000 small and medium&ndash;sized enterprises across the country, complementing services available from private&ndash;sector financial institutions. Ambitious and innovative entrepreneurs are the engine of our economy and it is our role, as Canada&rsquo;sdevelopment bank, to help them succeed.<\/p>"
+      },
+      {
+        "id": "5",
+        "name": "CCOCE",
+        "fullname": "Canadian Council of Chief Executives",
+        "link": "http:\/\/www.ceocouncil.ca",
+        "url": "http:\/\/www.ceocouncil.ca",
+        "logo": " ./assets/dist/img/sponsors/ccoce-alt.png",
+        "level": "luncheon",
+        "role": "sponsor",
+        "description": "<p> The Canadian Council of Chief Executives (CCCE) is a not&ndash;for&ndash;profit, non&ndash;partisan organization composed of the CEOs of Canada&rsquo;s leading enterprises. The CCCE engages in an active program of research, consultation and advocacy on issues of national importance to the economic and social fabric of Canada. Member CEOs and entrepreneurs represent all sectors of the Canadian economy. The companies they lead  collectively administer $7.5 trillion in assets, have annual revenues in excess of $1.1 trillion, and are responsible for the vast majority of Canada&rsquo;s exports, business investment, private&ndash;sector research and development, and employer&ndash;sponsored education and training.<\/p>"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "level": "Disruption Sponsor",
+    "sponsors": [
+      {
+        "id": "6",
+        "name": "Region-of-Waterloo",
+        "fullname": "Region of Waterloo",
+        "link": "http:\/\/www.regionofwaterloo.ca",
+        "url": "http:\/\/www.regionofwaterloo.ca",
+        "logo": " ./assets/dist/img/sponsors/region-of-waterloo.png",
+        "level": "Disruption Sponsor",
+        "role": "sponsor",
+        "description": "<p>The Region of Waterloo provides more than 60 per cent of municipal services to a growing population of 568,500 people. We are committed to creating an inclusive, thriving and sustainable community through innovative leadership and a range of services such as: public health, social services, planning, heritage, water supply, regional roads, waste management, ambulance service, rural libraries, public transit, community housing, emergency planning, Provincial Offences Courts and airport services.<\/p>"
+      },
+      {
+        "id": "7",
+        "name": "City-of-Waterloo",
+        "fullname": "City of Waterloo",
+        "link": "http:\/\/www.waterloo.ca\/",
+        "url": "http:\/\/www.waterloo.ca\/",
+        "logo": " ./assets/dist/img/sponsors/city-of-waterloo.png",
+        "level": "Ecosystem Tour",
+        "role": "sponsor",
+        "description": "<p> One of the World&rsquo;s Top Intelligent Communities, Waterloo boasts a knowledge economy that is globally recognized and is home to major employers, global think&ndash;tanks, the country&rsquo;s leading finance and insurance companies, and world renowned post&ndash;secondary institutions. Waterloo&rsquo;s prosperity is at an all&ndash;time high and consistently outperforms provincial standards for wealth, educational attainment, and talent. From urban design and architecture awards to sustainability and economic development awards, Waterloo wins local, provincial and global acclaim as a premier destination for success.<\/p>"
+      },
+      {
+        "id": "8",
+        "name": "City-of-Kitchener",
+        "fullname": "City of Kitchener",
+        "link": "http:\/\/www.kitchener.ca\/",
+        "url": "http:\/\/www.kitchener.ca\/",
+        "logo": " ./assets/dist/img/sponsors/city-of-kitchener.png",
+        "level": "Ecosystem Tour",
+        "role": "sponsor",
+        "description": "<p>Content to follow<\/p>"
+      },
+      {
+        "id": "9",
+        "name": "City-of-Cambridge",
+        "fullname": "City of Cambridge",
+        "link": "http:\/\/www.cambridge.ca",
+        "url": "http:\/\/www.cambridge.ca",
+        "logo": " ./assets/dist/img/sponsors/city-of-cambridge.png",
+        "level": "Ecosystem Tour",
+        "role": "sponsor",
+        "description": "<p>The City of Cambridge is one of the fastest growing areas in the country. Part of Canada&rsquo;s Technology Triangle, Cambridge has a diverse economic base with leading industries in advanced manufacturing, automotive, technology, pharmaceutical, and business and financial services. As a community of opportunity, Cambridge encourages business growth and innovation, entrepreneurial spirit, strong leadership, efficient government and the provision of municipal services, personal growth and civic pride.<\/p>"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "level": "Ecosystem Sponsor",
+    "sponsors": [
+      {
+        "id": "10",
+        "name": "Open-Text",
+        "fullname": "Open Text",
+        "link": "http:\/\/opentext.com",
+        "url": "http:\/\/opentext.com",
+        "logo": " ./assets/dist/img/sponsors/open-text-alt.png",
+        "level": "Ecosystem Sponsor",
+        "role": "sponsor",
+        "description": "<p>The business world is experiencing a digital transformation due to new technologies, a changing workforce, security and governance, regulatory pressure, and the digital customer. OpenText, based in the Kitchener-Waterloo innovation ecosystem, is the world leader Enterprise Information Management (EIM) solutions, offering both cloud and on-premises solutions. OpenText helps customers compete in a digital world by simplifying their businesses, transforming their business models, and accelerating revenues. Ninety percent of the world's fortune 500 companies use OpenText EIM. For more information about OpenText (NASDAQ: OTEX, TSX: OTC)<\/p>"
+      },
+      {
+        "id": "11",
+        "name": "Fairfax-Financial",
+        "fullname": "Fairfax Financial Holdings Limited",
+        "link": "http:\/\/fairfax.ca",
+        "url": "http:\/\/fairfax.ca",
+        "logo": " ./assets/dist/img/sponsors/fairfax-financial-alt.png",
+        "level": "General",
+        "role": "sponsor",
+        "description": "<p>Fairfax Financial Holdings Limited has recently established FAIRVentures, an innovation outpost within Communitech to investigate both disruptive and sustainable innovations throughout our organization.  Based in Toronto, Fairfax is a global company with investments in a multitude of businesses including insurance, reinsurance, banking, technology, retail, and restaurants.<\/p>"
+      },
+      {
+        "id": "12",
+        "name": "Quantum-Valley-Investments",
+        "fullname": "Quantum Valley Investments",
+        "link": "http:\/\/quantumvalleyinvestments.com",
+        "url": "http:\/\/quantumvalleyinvestments.com",
+        "logo": " ./assets/dist/img/sponsors/quantum-valley-investments-alt.png",
+        "level": "Quantum Symphony",
+        "description": "<p>Quantum Valley is focused on the commercialization of breakthrough technologies in Quantum Information Science.  Our vision is to develop the \u201cQuantum Valley\u201d in the Waterloo Region of Canada. The Quantum Valley Investment Fund provides commercialization funding, expertise and support for researchers that develop breakthroughs in Quantum Information Science that can reasonably lead to new commercializable technologies and applications.<\/p>"
+      },
+      {
+        "id": "13",
+        "name": "UK-Trade-and-Investment",
+        "fullname": "UK Trade and Investment",
+        "link": "https:\/\/www.gov.uk\/government\/organisations\/uk-trade-investment",
+        "url": "https:\/\/www.gov.uk\/government\/organisations\/uk-trade-investment",
+        "logo": " ./assets/dist/img/sponsors/uk-trade-and-investment-alt.png",
+        "level": "Interactive Playground",
+        "role": "sponsor",
+        "description": "<p>UKTI works with UK based businesses to ensure their success in international markets through exports. We encourage and support overseas companies to look at the UK as the best place to set up or expand their business.<\/p>"
+      },
+      {
+        "id": "14",
+        "name": "Orion",
+        "fullname": "ORION",
+        "link": "http:\/\/www.orion.on.ca\/",
+        "url": "http:\/\/www.orion.on.ca\/",
+        "logo": " ./assets/dist/img/sponsors/orion-alt.png",
+        "level": "Interactive Playground",
+        "role": "sponsor",
+        "description": "<p>As Ontario\u2019s backbone of innovation, ORION connects big ideas, big thinkers and big data through an ultra high-speed fibre optic network dedicated to enabling research, education and innovation (RE&I) in Ontario. ORION provides high-speed connectivity to its connected institutions, linking them to each other and to a global grid of research, education and innovation networks, which enables ongoing learning and collaboration.<\/p>"
+      },
+      {
+        "id": "15",
+        "name": "Virtual-Causeway",
+        "fullname": "Virtual Causeway",
+        "link": "http:\/\/www.v-causeway.com",
+        "url": "http:\/\/www.v-causeway.com",
+        "logo": " ./assets/dist/img/sponsors/virtual-causeway-alt.png",
+        "level": "In Kind",
+        "role": "sponsor",
+        "description": "<p>Virtual Causeway is a leading outsource provider of integrated sales, marketing, and technology services. We focus on Business-to-Business (B2B) activities specifically related to sales, marketing, and market research the high-tech industry.  In addition, we\u2019re Southern Ontario\u2019s largest CRM and Marketing Automation Integrator \u2013 focusing on Salesforce.com and Marketo implementations.<\/p>"
+      },
+      {
+        "id": "16",
+        "name": "Conestoga-College",
+        "fullname": "Conestoga College",
+        "link": "http:\/\/www.conestogac.on.ca",
+        "url": "http:\/\/www.conestogac.on.ca",
+        "logo": " ./assets/dist/img/sponsors/conestoga-college-alt.png",
+        "level": "In Kind",
+        "role": "sponsor",
+        "description": null
+      }
+    ]
+  }
+]

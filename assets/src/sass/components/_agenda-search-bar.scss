@@ -1,0 +1,117 @@
+.agenda-search-bar {
+  @include clearfix;
+  .list-inline{
+    @media screen and (max-width:768px){
+      width:100%;
+      display:block;
+      float:none;
+      text-align:center;
+      font-size:0.8em !important;
+    }
+  }
+  background-color: #f5f5f5;
+  border-top: 1px solid #999999;
+  margin-bottom: 75px;
+
+  ul {
+    margin: 0;
+  }
+
+  > ul > li {
+    display: inline-block;
+    font-size: $font-size-small;
+    font-weight: $font-weight-normal;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+
+    &:last-child {
+      margin-left: -6px;
+    }
+
+    a {
+      color: $gray-base;
+      display: inline-block;
+      padding: 20px 50px;
+      @media screen and (max-width:1024px){
+        padding:20px;
+      }
+      @media screen and (max-width:500px){
+        padding:10px;
+        font-size:14px !important;
+      }
+      cursor:pointer;
+      @include transition(.3s linear ease-in);
+
+      &:hover,
+      &.active {
+        background-color: $gray-base;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  > ul.filters {
+    > li {
+      padding: 0 5px;
+
+      &.dropdown {
+        &:hover {
+          background-color: $gray-base;
+
+          > a {
+            color: white;
+          }
+        }
+      }
+    }
+
+    > li:hover {
+      background-color: transparent;
+    }
+
+    > li > a{
+      padding:20px 10px;
+    }
+    & .dropdown-menu li{
+      background-color:$brand-primary;
+      padding: 0;
+      text-align: center;
+      &:last-child a{
+        border:none;
+      }
+      &:hover{
+        background-color: $gray-base;
+        color: white;
+      }
+      a{
+        border-bottom:1px solid white;
+        cursor:pointer;
+        margin:0;
+        width: 100%;
+        &:hover,
+        &.active {
+          background-color: $gray-base;
+          color: white;
+          text-decoration: none;
+          border-color:$gray-base;
+        }
+      }
+    }
+  }
+  .dropdown-menu{
+    padding:0;
+    right:0;
+    left:auto;
+    border-top:3px solid $brand-warning;
+    border-radius:0px;
+    min-width:200px;
+  }
+  .open{
+    background-color: $brand-primary;
+    color: $gray-base;
+    text-decoration: none;
+  }
+}

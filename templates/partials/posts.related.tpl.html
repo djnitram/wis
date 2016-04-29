@@ -1,0 +1,13 @@
+<section class="related-posts">
+  <div class="container">
+    <header class="related-posts-header">
+      <h2>Related Posts</h2>
+    </header>
+
+    <div class="row">
+      <div ng-repeat="post in vm.posts" class="col-md-4">
+        <div ng-include=" 'templates/components/post.related.tpl.html' "></div>
+      </div>
+    </div>
+  </div>
+</section>

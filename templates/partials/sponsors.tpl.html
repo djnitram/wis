@@ -1,0 +1,30 @@
+<section class="sponsors">
+  <div class="container">
+    <header class="sponsors-header">
+      <h2>2016 Sponsors</h2>
+        <!-- <p>For sponsorship opportunities please contact Kristen Gillett at <a href="mailto:kristen.gillett@waterlooinnovationsumit.com?subject=2016 Sponsorship inquiry from the Waterloo Innovation Summit website">kristen.gillett@waterlooinnovationsumit.com </a></p> -->
+    </header>
+
+    <div class="row">
+      <slick infinite="true" slides-to-show=3 slides-to-scroll=3 dots="true" arrows="false" ng-if="vm.sponsors.length" responsive="[{breakpoint: 1024, settings: {dots: true, slidesToShow: 1, slidesToScroll: 1}}]">
+        <div ng-repeat="sponsor in vm.sponsors" class="col-md-4">
+          <div class="sponsor">
+            <a href="{{sponsor.url}}" title="{{sponsor.name}}">
+              <img ng-src="{{sponsor.logo}}" alt="Logo for {{sponsor.name}}">
+            </a>
+          </div>
+          <div class="sponsor-detail">
+            <div class="sponsor-level" ng-bind-html="::sponsor.level | sanitize"></div>
+            <div class="sponsor-role" ng-bind-html="::sponsor.role | sanitize"></div>
+            <div class="sponsor-fullname" ng-bind-html="::sponsor.fullname | sanitize"></div>
+          </div>
+        </div>
+      </slick>
+    </div>
+     <div class="row">
+    <div class="col-sm-12 sponsor-intro-text">
+      <p>For sponsorship opportunities please contact Kristen Gillett at <a href="mailto:kristen.gillett@waterlooinnovationsummit.com?subject=2016 Sponsorship inquiry from the Waterloo Innovation Summit website">kristen.gillett@waterlooinnovationsummit.com </a></p>
+    </div>
+  </div>
+  </div>
+</section>

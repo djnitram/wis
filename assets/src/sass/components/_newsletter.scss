@@ -1,0 +1,50 @@
+.newsletter {
+  margin-bottom: 50px;
+
+  .newsletter-header {
+    h5 {
+      font-weight: $font-weight-light;
+      text-transform: uppercase;
+    }
+  }
+
+  .newsletter-form {
+    background-color: $brand-primary;
+    @include clearfix;
+
+    .form-group {
+      margin-bottom: 0;
+    }
+  }
+
+  .newsletter-input {
+    float: left;
+    width: 70%;
+
+    .form-control {
+      border-right: none;
+    }
+  }
+
+  .newsletter-button {
+    float: right;
+    margin-left: -2px;
+    width: 30%;
+  }
+
+  .social-bar & {
+    margin-bottom: 0;
+  }
+}
+.register-page-newsletter{
+  .newsletter-main{
+    width:50%;
+    margin:0 auto;
+    @media screen and (max-width:990px){
+      width:100%;
+    }
+  }
+  h5{
+    display:none;
+  }
+}

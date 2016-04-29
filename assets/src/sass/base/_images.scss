@@ -1,0 +1,6 @@
+img {
+  .post-content & {
+    margin-bottom: $grid-gutter-width;
+    max-width: 100%; 
+  }
+}

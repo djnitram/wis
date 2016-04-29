@@ -1,0 +1,71 @@
+<article class="session teaser-mod" id="session-id-{{::session.id}}">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="session-datetime">
+        <date class="session-date">{{::agenda.date}}</date>
+        <time class="session-time">{{::session.startTime}} - {{::session.endTime}}</time>
+      </div>
+      <div class="session-topics" ng-if="session.topics">
+        <h6>Topic:</h6>
+        <span ng-repeat="topic in session.topics">{{(!$last) ? topic + ', ' : topic}}</span>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="session-main" ng-init="visibleDetails = (vm.activeSession == session.id) ? true : false" ng-class="{'visible-details': visibleDetails}">
+        <h4 class="session-title">{{::session.title}}</h4>
+        <div class="session-excerpt" ng-if="session.excerpt" ng-bind-html="::session.excerpt | sanitize"></div>
+
+        <div class="session-details" ng-if="session.detail || session.speakers || session.panelists || (session.venue && session.venue.name)">
+          <div class="toggle-details">
+            <a href ng-click="visibleDetails = !visibleDetails; $event.preventDefault()" ng-class="{'visible-details': visibleDetails}"><span ng-hide="visibleDetails">Show</span><span ng-show="visibleDetails">Hide</span> Details</a>
+          </div>
+
+          <div class="session-details-details fx-fade-normal" ng-show="visibleDetails">
+            <div ng-if="session.detail" ng-bind-html="::session.detail | sanitize" class="session-details-body"></div>
+
+            <div ng-if="session.type == 'panel'">
+              <div ng-if="session.moderators.length" class="session-moderators">
+                <h6>Moderated by</h6>
+                <ul class="list-unstyled">
+                  <li ng-repeat="moderator in session.moderators">
+                    <span class="moderator-name">{{::moderator.name}}</span><span ng-if="moderator.company">, <span class="moderator-company">{{::moderator.company}}</span></span>
+                  </li>
+                </ul>
+              </div>
+
+              <div ng-if="session.panelists.length" class="session-panelists">
+                <h6>Panelists</h6>
+                <ul class="list-unstyled">
+                  <li ng-repeat="panelist in session.panelists">
+                    <span class="panelist-name">{{::panelist.name}}</span><span ng-if="panelist.company">, <span class="panelist-company">{{::panelist.company}}</span></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div ng-if="session.type != 'panel'">
+              <div ng-if="session.speakers.length" class="session-speakers">
+                <h6 ng-if="session.speakers.length != 1">Speakers</h6>
+                <h6 ng-if="session.speakers.length == 1">Speaker</h6>
+                <ul class="list-unstyled">
+                  <li ng-repeat="speaker in session.speakers">
+                    <span class="speaker-name">{{::speaker.name}}</span><span ng-if="speaker.company">, <span class="speaker-company">{{::speaker.company}}</span></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div ng-if="session.venue && session.venue.name" class="session-venue">
+              <h6>Venue</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <span class="venue-name">{{::session.venue.name}}</span><span ng-if="session.venue.room">, <span class="venue-room">{{::session.venue.room}}</span></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

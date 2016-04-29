@@ -1,0 +1,35 @@
+<section class="featured-post" ng-if="vm.featuredPost">
+  {{post=vm.featuredPost;""}}
+  <div ng-include=" 'templates/components/post.featured.tpl.html' "></div>
+</section>
+
+<div class="container">
+  <section class="posts">
+    <div class="post-search-bar">
+      <div class="row">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+          <form class="form post-search-form" ng-submit="vm.search()">
+            <div class="form-group post-search-form-input">
+              <label for="search-the-blog" class="sr-only">Search the blog</label>
+              <input id="search-the-blog" type="text" ng-model="vm.tempTerm" placeholder="Search the blog" class="form-control">
+            </div>
+            <button class="btn btn-primary btn-block post-search-form-button"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Submit</span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="loader" ng-show="vm.loadingPosts">
+      <i class="fa fa-circle-o-notch fa-spin"></i>
+    </div>
+
+    <ul class="list-unstyled">
+      <li ng-repeat="post in vm.posts | filter:vm.term">
+        <div ng-include=" 'templates/components/post.teaser.tpl.html' " ng-show="vm.featuredPost && (vm.featuredPost.id != post.id)"></div>
+      </li>
+    </ul>
+  </section>
+</div>

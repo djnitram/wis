@@ -1,0 +1,34 @@
+.newsletter {
+  margin-bottom: 50px;
+
+  .newsletter-header {
+    h5 {
+      font-weight: $font-weight-light;
+      text-transform: uppercase;
+    }
+  }
+
+  .newsletter-form {
+    background-color: $brand-primary;
+    @include clearfix;
+
+    .form-group {
+      margin-bottom: 0;
+    }
+  }
+
+  .newsletter-input {
+    float: left;
+    width: 70%;
+
+    .form-control {
+      border-right: none;
+    }
+  }
+
+  .newsletter-button {
+    float: right;
+    margin-left: -2px;
+    width: 30%;
+  }
+}

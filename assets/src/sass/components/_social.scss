@@ -1,0 +1,10 @@
+.social {
+  text-align: right;
+  @media screen and ( max-width: $screen-md ){
+    text-align:center;
+  }
+
+  ul {
+    margin-top: 43px;
+  }
+}

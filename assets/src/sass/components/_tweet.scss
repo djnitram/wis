@@ -1,0 +1,52 @@
+.tweet {
+  $tweet-bg: #f5f5f5;
+  $tweet-border: $brand-border-color;
+  $tweet-margin: 65px 0 $grid-gutter-width 0;
+
+  background: $tweet-bg;
+  border-top: 1px solid $brand-border-color;
+  margin: $tweet-margin;
+  padding: $grid-gutter-width*2 $grid-gutter-width $grid-gutter-width $grid-gutter-width;
+  position: relative;
+  text-align: center;
+
+  &:before {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+
+    background: transparent url('../img/tweet.png') center center no-repeat;
+    content: "";
+    display: block;
+    height: 90px;
+    margin-left: -45px;
+    width: 90px;
+  }
+
+  blockquote {
+    border: none;
+    display: inline;
+    font-size: $font-size-extra-large;
+    font-weight: $font-weight-normal;
+    margin: 0;
+    padding: 0;
+
+    a {
+      color: inherit;
+      font-weight: $font-weight-semibold;
+
+      &:hover {
+        color: inherit;
+        text-decoration: underline;
+      }
+    }
+
+    &:before {
+      content: "“"
+    }
+
+    &:after {
+      content: "”"
+    }
+  }
+}

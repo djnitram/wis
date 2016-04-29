@@ -1,0 +1,63 @@
+.author {
+  border-bottom: 1px solid $brand-border-color;
+  margin-bottom: 50px;
+  padding-bottom: $grid-gutter-width/2;
+
+  .author-header {
+    @include clearfix;
+    margin-bottom: 20px;
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+
+      &.author-title {
+        font-size: 20px; // one-off font size
+        text-transform: uppercase;
+      }
+
+      &.author-handle {
+        font-size: $font-size-extra-small;
+        font-weight: $font-weight-bold;
+      }
+
+      a {
+        color: inherit;
+
+        &:hover {
+          color: inherit;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .author-avatar {
+      float: left;
+
+      img {
+        height: 100px;
+        width: auto;
+      }
+    }
+
+    .author-meta {
+      float: left;
+      margin-left: $grid-gutter-width/2;
+      padding-top: 63px;
+      vertical-align: bottom;
+    }
+  }
+
+  .author-main {
+    font-size: $font-size-extra-small;
+
+    a {
+      color: inherit;
+      font-weight: $font-weight-bold;
+
+      &:hover {
+        color: inherit;
+        text-decoration: underline;
+      }
+    }
+  }
+}

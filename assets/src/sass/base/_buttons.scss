@@ -1,0 +1,43 @@
+.btn {
+  font-family: $headings-font-family;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+}
+
+.btn-facebook {
+  background-color: #2B5996;
+  border: none;
+  color: white;
+  margin-bottom: $grid-gutter-width/2;
+
+  &:hover,
+  &:focus {
+    background-color: darken(#2B5996, 5%) !important;
+    color: white !important;
+  }
+}
+
+.btn-twitter {
+  background-color: #1CA9D3;
+  border: none;
+  color: white;
+  margin-bottom: $grid-gutter-width/2;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken(#1CA9D3, 5%) !important;
+    color: white !important;
+  }
+}
+
+.btn-facebook,
+.btn-twitter {
+  i {
+    margin-right: 5px;
+  }
+}
+
+.social-share {
+  padding: 0 $grid-gutter-width/2 $grid-gutter-width $grid-gutter-width/2;
+}

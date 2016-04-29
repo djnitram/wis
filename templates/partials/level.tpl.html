@@ -1,0 +1,15 @@
+<section class="sponsors level-mod">
+  <div class="container">
+    <header class="sponsors-header">
+      <h2>{{level.level}}</h2>
+    </header>
+
+    <div class="row">
+    <ul class="list-unstyled sponsors-list sponsors-count-{{level.sponsors.length}}">
+      <li ng-repeat="sponsor in level.sponsors">
+        <div ng-include=" 'templates/components/sponsor.tpl.html' "></div>
+      </li>
+    </ul>
+    </div>
+  </div>
+</section>

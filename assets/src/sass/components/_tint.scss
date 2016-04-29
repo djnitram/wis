@@ -1,0 +1,24 @@
+.tint-widget {
+  .tint-widget-header {
+    .tint-widget-title {
+      @include section-title();
+      margin-top: 0;
+      margin-bottom: $grid-gutter-width;
+    }
+    @media screen and (max-width:$screen-sm ){
+      margin-top:20px;
+      text-align:center;
+    }
+  }
+}
+
+.loader {
+  min-height: 400px;
+  padding: $grid-gutter-width 0;
+  text-align: center;
+
+  i {
+    color: #dddddd;
+    font-size: 3em;
+  }
+}

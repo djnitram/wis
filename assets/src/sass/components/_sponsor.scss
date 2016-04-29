@@ -1,0 +1,71 @@
+.sponsor {
+  line-height: 80px;
+  text-align: center;
+
+  img {
+    margin: 0 auto;
+    max-height: 80px;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
+
+.sponsors .sponsor {
+  line-height: auto;
+  text-align: center;
+
+  img {
+    height: auto;
+    max-height: none;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+
+.sponsors-list .sponsor {
+  line-height: auto;
+
+  a {
+    display: block;
+  }
+
+  img {
+    max-height: none;
+    width: 100%;
+  }
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+ul.levels-list {
+  margin-bottom: 0;
+}
+
+.sponsor-detail {
+  margin-top: 10px;
+  text-align: center;
+
+  .sponsor-level,
+  .sponsor-role,
+  .sponsor-fullname {
+    @extend h5;
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .sponsor-role {
+    color: #999;
+  }
+
+  .sponsor-fullname {
+    @extend h5;
+    font-size: 14px;
+    font-weight: $font-weight-normal;
+    margin-top: $grid-gutter-width/3;
+  }
+}

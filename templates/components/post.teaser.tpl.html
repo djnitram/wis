@@ -1,0 +1,19 @@
+<article class="post teaser-mod">
+  <div class="row">
+    <div class="col-md-4" ng-if="post.image">
+      <a href="" ui-sref="app.blog.show({id: post.id})" class="post-thumbnail">
+        <img ng-src="{{post.image}}" alt="{{post.title}}" role="presentation">
+      </a>
+    </div>
+    <div class="col-md-8" ng-class="{'col-md-8': post.image, 'col-md-12': !post.image}">
+      <header class="post-header">
+        <date>{{post.published | date: 'longDate' }}</date>
+        <h2><a href="" ui-sref="app.blog.show({id: post.id})" ng-bind-html="post.title | sanitize"></a></h2>
+        <h3 ng-if="post.subtitle" ng-bind-html="post.subtitle | sanitize"></h3>
+      </header>
+      <div class="post-main">
+        <p>{{post.description|truncate:true:300}}</p>
+      </div>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,21 @@
+{{page=vm.page;""}}
+<div ng-include=" 'templates/components/page.masthead.tpl.html' " ng-init="page = vm.page"></div>
+
+<div ui-view="keynote-speakers"></div>
+
+<div ui-view="fireside-speakers"></div>
+
+<div class="container">
+  <section class="all-speakers">
+    <header class="all-speakers-header">
+      <h2>All Speakers</h2>
+    </header>
+    <div class="row">
+      <ul class="list-unstyled speakers-list">
+        <li ng-repeat="speaker in vm.speakers">
+          <div ng-include=" 'templates/components/speaker.teaser.tpl.html' "></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>

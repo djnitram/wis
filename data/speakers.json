@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Walter Isaacson",
+        "firstName": "Walter",
+        "lastName": "Isaacson",
+        "jobTitle": "President and CEO",
+        "company": "the Aspen Institute",
+        "role": "President and CEO, the Aspen Institute",
+        "bio": "<p>As President and CEO of the Aspen Institute for the past 13 years, Walter Isaacson leads an organization that examines economic and political agility on a global scale. The Aspen Institute is the Washington-based non-partisan policy studies institute with a wide-ranging mandate to enrich the world&rsquo;s collective future by promoting values-based leadership in politics, economics, education, philanthropy and social enterprise.<\/p> <p>Isaacson, with decades of experience as a bestselling author, acclaimed historian and journalist, has ridden the waves of transformational change as the former editor of <em>TIME<\/em> magazine in 1996 and chairman and CEO of CNN in 2001. And he has written about transformational change in <em>The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution<\/em> (2014), and <em>Steve Jobs<\/em> (2011). Born in New Orleans, Isaacson is a graduate of Harvard College and of Pembroke College of Oxford University, where he was a Rhodes Scholar. He began his career at <em>The Sunday Times of London.<\/em> He joined <em>TIME</em> in 1978 and served as a political correspondent, national editor and editor of new media before becoming managing editor. He is a board member of United Airlines, an emeritus board member of Tulane University and a member of the Board of Overseers of Harvard University.<\/p>",
+        "twitter": "walterisaacson",
+        "handle": "walterisaacson",
+        "type": "Keynote Speaker",
+        "avatar": " ./assets/dist/img/speakers/walter-isaacson.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/walter-isaacson.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Anita Sands",
+        "firstName": "Anita ",
+        "lastName": "Sands",
+        "jobTitle": "Global transformation leader",
+        "company": "",
+        "role": "Global transformation leader",
+        "bio": "<p>Anita M. Sands is an agile tech virtuoso. She earned seats on the boards of three public companies &mdash; the cyber-security giant Symantec; the cloud computing and enterprise service management company ServiceNow; and enterprise data flash storage startup Pure Storage &mdash; all before her 40<sup>th</sup> birthday.<\/p><p> The Irish-born Sands applies the notion of transformation to her own life, having leapt from a PhD in atomic and molecular physics to become, at age 30, the youngest-ever Senior Vice-President at the Royal Bank of Canada (where she was head of innovation and process design). Sands went on to be Head of Transformation for Global Technology and Operations at Citigroup, before moving to UBS Wealth Management, where she was COO for technology, operations and corporate services, and Group Managing Director and Head of Change Leadership.<\/p><p> At 20, Sands won the all-Ireland public speaking competition, and uses her podium skills for the professional women&rsquo;s advocacy group WOMEN in America and the young women&rsquo;s mentoring network WIE (Women: Inspiration and Enterprise). She has appeared in many &ldquo;top&rdquo; lists, including the 2015 top 40 under 40 by the National Association of Corporate Directors, the Wall Street 50 and the 2016 Top Women in Tech by Silicon Republic.<\/p>",
+        "twitter": "",
+        "handle": "",
+        "type": "Keynote Speaker",
+        "avatar": " ./assets/dist/img/speakers/anita-sands.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/anita-sands.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Mike Katchen",
+        "firstName": "Mike",
+        "lastName": "Katchen",
+        "jobTitle": "Founder and CEO",
+        "company": "WealthSimple",
+        "role": "Founder and CEO, WealthSimple",
+        "bio":"<p>Michael&nbsp;Katchen&nbsp;is a self-described &ldquo;boring&rdquo; investor, but the ride for his online portfolio management firm, Wealthsimple, has been anything but boring. Wealthsimple recently celebrated $400 million combined assets under management, and with its acquisition last year of Canadian ShareOwner Investments Ltd., rivals the Bank of Montreal and the Royal Bank in the Canadian online discount brokerage business.<\/p><p> Launched in 2014, the rapidly growing fintech innovator has confounded the investment sector with its creative mobile-friendly, low-fees approach for small investors. The 28-year-old Wealthsimple founder and CEO&rsquo;s targeting of millennials, who can use Wealthsimple to open a portfolio with $100, resulted in weekly growth rate of 10 per cent, and within seven months of launch, had attracted a $30 million investment from a division of Power Corp., one of Canada&rsquo;s financial elites.<\/p><p> Katchen who began his investment career at age 12 in a stock-picking contest, has appeared on &ldquo;The Disruptors&rdquo; on BNN and was described as a &ldquo;Change Agent&rdquo; by Canadian Business Magazine. He was VP of 1000memories, a Y Combinator participant that created a mobile app for scanning old photographs, when it was acquired by industry genealogy giant Ancestry.com.<\/p>",
+        "twitter": "",
+        "handle": "",
+        "type": "Fireside Speaker",
+        "avatar": " ./assets/dist/img/speakers/mike-katchen.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/mike-katchen.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Paul Desmarais iii",
+        "firstName": "Paul",
+        "lastName": "Desmarais iii",
+        "jobTitle": "Vice-President",
+        "company": "Power Corporation and Power Financial",
+        "role": "Vice-President, Power Corporation and Power Financial",
+        "bio": "<p>Paul Desmarais III straddles both the worlds of Canada&rsquo;s financial elites and the ecosystems of Canada&rsquo;s emerging young professionals and innovators. As Vice-President of Power Corporation and Power Financial since 2014, he is at the frontline of Canada&rsquo;s most recognized financial holding company, with a 90-year history and $1.2 trillion in managed assets. As the co-founder and honorary chair of Young Canadians in Finance and as a board member with the young enterprise support initiative The Next 36, the 34-year-old Desmarais is engaged with Canada&rsquo;s next generation of entrepreneurs.<\/p><p> The grandson of Power Corp. founder, the late Paul Desmarais Sr., Demarais III began his financial career in 2004, as an analyst and associate with Goldman Sachs in New York. Prior to his current position with Power Corp., he was Assistant Vice-President in the risk management group of Great-West Lifeco and had worked in project management and corporate strategy at Imerys in France.<\/p><p> In May 2014, he was named a director of Great-West Life, Investors Group, Mackenzie, Pargesa, Groupe Bruxelles Lambert and&nbsp;Imerys. He co-founded Young Canadians in Finance to provide young private and public sector professionals with networking opportunities to prepare them for leadership positions. The Next 36, of which his grandfather was a co-founding patron, champions the innovative ventures of emerging Canadian entrepreneurs to ensure a prosperous economy.<\/p>",
+        "twitter": "",
+        "handle": "",
+        "type": "Fireside Speaker",
+        "avatar": " ./assets/dist/img/speakers/paul-desmarais.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/paul-desmarais.jpg"
+    }
+]

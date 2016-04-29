@@ -1,0 +1,228 @@
+.ecosystem{
+  .nav-tabs li{
+    font-size:16px;
+  }
+
+  .tab-content{
+    .tab{
+      min-height:600px;
+      color:white;
+      position:relative;
+      background-size:cover;
+
+      @media screen and (max-width: $container-tablet) {
+        min-height: 0;
+      }
+    }
+
+    .influencers {
+      margin-top: $grid-gutter-width;
+
+      .influencers-photo {
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+
+        @media screen and (max-width: $container-desktop) {
+          margin-bottom: $grid-gutter-width;
+
+          > img {
+            margin-bottom: $grid-gutter-width;
+          }
+
+          .callout img {
+            max-width: 100%;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    .callout{
+      background-color: rgba(0, 0, 0, 0.45);
+      float: left;
+      display: block;
+      font-weight: $font-weight-light;
+      font-size: $font-size-medium;
+      padding: 10px;
+      padding-top: 20px;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      position: absolute;
+      left: $grid-gutter-width;
+      bottom: $grid-gutter-width;
+      text-align: center;
+      text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.57);
+
+      @media screen and (max-width: $container-tablet) {
+        font-size: $font-size-small;
+      }
+
+      img {
+        margin: 0 auto $grid-gutter-width/2 0;
+      }
+
+      p {
+        text-align: left;
+      }
+
+      @media screen and (max-width: $container-desktop) {
+        background: $gray-base;
+        float: none;
+        padding: $grid-gutter-width;
+        margin: 0;
+        margin-bottom: $grid-gutter-width;
+        text-align: center;
+        text-shadow: none;
+        width: 100%;
+
+        position: relative;
+        left: auto;
+        bottom: auto;
+
+        img {
+          max-width: 100%;
+          width: auto;
+        }
+      }
+    }
+
+    .quote {
+      background-color: $gray-base;
+      display: block;
+      font-size: $font-size-medium;
+      font-weight: $font-weight-light;
+      min-height: 352px;
+      padding: $grid-gutter-width*3 $grid-gutter-width;
+      text-align: center;
+
+      @media screen and (max-width: $container-desktop) {
+        margin-bottom: $grid-gutter-width;
+        min-height: 0;
+        padding: $grid-gutter-width;
+      }
+
+      @media screen and (max-width: $container-tablet) {
+        font-size: $font-size-small;
+      }
+
+      &.quote-main {
+        margin-bottom: $grid-gutter-width;
+        min-height: 0;
+        padding: $grid-gutter-width;
+      }
+
+      .quote-text {
+        display: block;
+
+        &:after,
+        &:before {
+          content: "“";
+          color: $brand-primary;
+          font-family: "Arial";
+          font-weight: $font-weight-semibold;
+        }
+
+        &:after {
+          content: "”";
+        }
+      }
+
+      .quote-author {
+        display: block;
+        font-family: $headings-font-family;
+        margin-top: 15px;
+
+        b {
+          font-weight: $font-weight-bold;
+        }
+      }
+    }
+  }
+}
+
+img.proximity-map {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+
+  @media screen and (max-width: $container-tablet) {
+    margin-top: $grid-gutter-width/2;
+  }
+}
+
+.regional-information {
+  padding: $grid-gutter-width 0 0 0;
+
+  .regional-information-header {
+    margin-bottom: 50px;
+    text-align: center;
+
+    @media screen and (max-width: $container-tablet) {
+      margin-bottom: $grid-gutter-width;
+    }
+
+    h2 {
+      border-bottom: 3px solid #e1e1e1;
+      display: inline-block;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.visionary {
+  color: $gray-base;
+  padding-top: $grid-gutter-width;
+  text-align: center;
+
+  img {
+    margin-bottom: $grid-gutter-width/2;
+    max-width: 100%;
+  }
+
+  h5, h6 {
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .achievements {
+    font-size: $font-size-extra-small;
+    font-weight: $font-weight-light;
+    margin-top: $grid-gutter-width/4;
+  }
+}
+
+.map.tab {
+  .map-canvas {
+    height: 550px;
+    margin-top: $grid-gutter-width;
+    margin-bottom: 0;
+  }
+}
+
+.info-window {
+  color: $gray-base;
+
+  h3, h4 {
+    margin: 0;
+  }
+
+  h3 {
+    @extend h6;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    @extend h6;
+    font-size: $font-size-small;
+    text-transform: uppercase;
+  }
+
+  address {
+    margin-top: $grid-gutter-width/2;
+  }
+}

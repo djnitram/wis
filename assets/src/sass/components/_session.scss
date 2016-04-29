@@ -1,0 +1,143 @@
+.session {
+  &.teaser-mod {
+    margin-bottom: $grid-gutter-width;
+
+    .session-datetime {
+      border-bottom: 1px solid #999999;
+      display: block;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+
+      @media screen and (max-width: $container-tablet) {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      .session-date {
+        display: block;
+        font-size: $font-size-extra-small;
+        font-weight: $font-weight-normal;
+      }
+
+      .session-time {
+        @extend h5;
+
+        @media screen and (max-width: $container-tablet) {
+          font-family: $font-family-sans-serif;
+          font-size: $font-size-extra-small;
+          font-weight: $font-weight-normal;
+        }
+      }
+    }
+
+    .session-topics {
+      font-family: $headings-font-family;
+      font-size: $font-size-extra-small;
+      font-weight: $font-weight-semibold;
+      text-transform: uppercase;
+
+      h6 {
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        margin: 0;
+        text-transform: inherit;
+      }
+    }
+
+    .session-main {
+      border-bottom: 1px solid #999999;
+      padding-bottom: $grid-gutter-width;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    h4.session-title {
+      margin-top: 22px;
+
+      @media screen and (max-width: $container-tablet) {
+        margin-top: 0;
+      }
+    }
+
+    .session-details-body {
+      font-weight: $font-weight-light;
+      margin-top: 20px;
+    }
+
+    .session-excerpt {
+      font-weight: $font-weight-light;
+    }
+
+    .session-details-details {
+      overflow: hidden;
+    }
+
+    .toggle-details {
+      margin-top: $grid-gutter-width;
+
+      a {
+        background: transparent url('../img/decorators/toggle.png') 0 0 no-repeat;
+        color: $gray-base;
+        display: block;
+        font-size: $font-size-extra-small;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 40px;
+        text-transform: uppercase;
+        cursor:pointer;
+
+        &.visible-details {
+          background-position: 0 -30px;
+
+          &:hover {
+            background-position: 0 -91px;
+          }
+        }
+
+        &:hover {
+          background-position: 0 -61px;
+        }
+      }
+
+      &:hover {
+        a {
+          background-position: 0 -61px;
+        }
+        a.visible-details {
+          background-position: 0 -91px;
+        }
+      }
+    }
+
+    .session-moderators,
+    .session-panelists,
+    .session-speakers,
+    .session-venue {
+      margin-top: $grid-gutter-width;
+
+      h6 {
+        font-size: 14px;
+        font-weight: $font-weight-semibold;
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      li {
+        font-size: $font-size-small;
+        text-transform: uppercase;
+      }
+
+      .speaker-name,
+      .panelist-name,
+      .moderator-name,
+      .venue-name {
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<section class="keynote-speakers">
+  <div class="container">
+    <header class="keynote-speakers-header">
+      <h2>Fireside Chats</h2>
+    </header>
+
+    <div class="row">
+      <ul class="list-unstyled speakers-list">
+        <li ng-repeat="speaker in vm.speakers">
+          <div ng-include=" 'templates/components/speaker.keynote.tpl.html' "></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

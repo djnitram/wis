@@ -1,0 +1,47 @@
+.keynote-speakers {
+  background-color: white;
+  padding-top: $grid-gutter-width;
+  padding-bottom: 0;
+
+  .keynote-speakers-header {
+    margin-bottom: 50px;
+    text-align: center;
+
+    h2 {
+      border-bottom: 3px solid #e1e1e1;
+      display: inline-block;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  .speakers-list {
+    li {
+      @include make-md-column(4);
+
+      &:nth-child(3n+1) {
+        clear: both;
+      }
+    }
+  }
+}
+
+.all-speakers {
+  background-color: white;
+  padding-top: $grid-gutter-width;
+  padding-bottom: 0;
+
+  .all-speakers-header {
+    margin-bottom: 50px;
+    text-align: center;
+
+    h2 {
+      border-bottom: 3px solid #e1e1e1;
+      display: inline-block;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}

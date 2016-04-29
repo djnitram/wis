@@ -1,0 +1,51 @@
+{{page=vm.page;""}}
+<div ng-include=" 'templates/components/page.masthead.tpl.html' " ng-init="page = vm.page"></div>
+
+<div class="container">
+  <section class="agenda">
+    <div class="agenda-search-bar">
+      <ul class="list-inline pull-left">
+        <li ng-repeat="agenda in vm.agendas">
+          <a href="#" ng-click="vm.searchByDate(agenda.date); $event.preventDefault()" ng-class="{active: vm.search.date == agenda.date}">{{agenda.date}}</a>
+        </li>
+        <li>
+          <a href="#" ng-click="vm.searchByDate(''); $event.preventDefault();" ng-class="{active: !vm.search.date}">All Dates</a>
+        </li>
+      </ul>
+
+      <ul class="list-inline pull-right filters">
+        <li>Filter by:</li>
+        <li class="dropdown" dropdown>
+          <a href dropdown-toggle>Type <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="" ng-class="{active: !vm.search.type}" ng-click="vm.searchByType(); $event.preventDefault">All</a>
+            </li>
+            <li ng-repeat="type in vm.types">
+              <a href="" ng-class="{active: vm.search.type == type}" ng-click="vm.searchByType(type); $event.preventDefault">{{type}}</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown" dropdown ng-if="vm.topics && vm.topics.length > 0">
+          <a href dropdown-toggle>Topic <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-menu">
+            <li ng-repeat="topic in vm.topics">
+              <a href>{{topic}}</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="list-unstyled">
+      <li ng-repeat="agenda in vm.agendas | filter: vm.filterByDate">
+        <ul class="list-unstyled">
+          <li ng-repeat="session in agenda.sessions | filter: vm.filterByType">
+            <div ng-include=" 'templates/components/session.teaser.tpl.html' "></div>
+          </li>
+        </ul>
+        <p ng-show="vm.search.date && (agenda.sessions|filter:vm.filterByType).length == 0">No sessions matched your criteria</p>
+      </li>
+    </ul>
+  </section>
+</div>

@@ -1,0 +1,17 @@
+<article class="speaker teaser-mod">
+  <a href="#" ng-click="vm.showSpeaker(speaker); $event.preventDefault()">
+    <header class="speaker-header">
+      <div class="speaker-thumbnail">
+        <img ng-src="{{::speaker.avatar}}" alt="{{::speaker.name}}">
+        <div class="speaker-thumbnail-screen">
+          <span class="speaker-thumbnail-screen-text">View speaker's bio</span>
+        </div>
+      </div>
+      <h5><span class="speaker-first-name" ng-bind-html="::speaker.firstName | sanitize"></span> <span class="speaker-last-name" ng-bind-html="::speaker.lastName | sanitize"></span></h5>
+      <h6><span class="speaker-job-title" ng-bind-html="::speaker.jobTitle | sanitize"></span><span ng-if="speaker.company">, <span class="speaker-company" ng-bind-html="::speaker.company | sanitize"></span></span></h6>
+    </header>
+  </a>
+  <footer class="speaker-footer" ng-if="speaker.handle">
+    <div class="speaker-handle"><a href="https://twitter.com/{{::speaker.handle}}">@{{::speaker.handle}}</a></div>
+  </footer>
+</article>

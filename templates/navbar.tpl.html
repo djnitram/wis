@@ -1,0 +1,18 @@
+<nav class="navbar navbar-inverse" ng-class="{'active':menuShown}" id="main-menu">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><a ui-sref="app.home" ng-class="{active: $state.includes('app.home')}" ng-click="menuShown=false">The Summit</a></li>
+      <!-- <li><a ui-sref="app.agenda" ng-class="{active: $state.includes('app.agenda')}" ng-click="menuShown=false">Agenda</a></li> -->
+      <li><a ui-sref="app.speakers" ng-class="{active: $state.includes('app.speakers')}" ng-click="menuShown=false">Speakers</a></li>
+      <!-- <li><a ui-sref="app.page({slug: 'waterloos-innovation-ecosystem'})" ng-class="{active: $stateParams.slug == 'waterloos-innovation-ecosystem'}" ng-click="menuShown=false">Waterloo's Innovation Ecosystem</a></li> -->
+      <!-- <li><a ui-sref="app.blog" ng-class="{active: $state.includes('app.blog')}" ng-click="menuShown=false">Blog</a></li> -->
+      <li><a ui-sref="app.page({slug: 'videos'})" ng-class="{active: $stateParams.slug == 'videos'}" ng-click="menuShown=false">2015 Highlights</a></li>
+      <li><a ui-sref="app.page({slug: 'sponsors'})" ng-class="{active: $state.includes('app.sponsors')}" ng-click="menuShown=false">Sponsors</a></li>
+    </ul>
+  </div>
+</nav>
+<a href="" ng-init="menuShown=false" ng-click="menuShown=!menuShown" class="mobile-trigger" data-target="#main-menu" aria-expanded="{{menuShown}}">
+  <i class="fa fa-bars" aria-hidden="{{menuShown}}" ng-hide="menuShown"></i>
+  <i class="fa fa-remove" aria-hidden="{{!menuShown}}" ng-show="menuShown"></i>
+  <span class="sr-only">Menu</span>
+</a>

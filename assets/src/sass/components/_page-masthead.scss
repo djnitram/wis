@@ -1,0 +1,62 @@
+.page-masthead {
+  background-color: $gray-base;
+  background-image: url('../img/header-bg.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 70px 0 60px 0;
+  position: relative;
+  text-align: center;
+
+  @media screen and (max-width: $container-tablet) {
+    background-image: url('../img/header-bg-sm.jpg');
+    padding: 45px 0;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+
+  .page-masthead-title {
+    font-family: $headings-font-family;
+    font-size: 60px;
+    font-weight: $font-weight-bold;
+    margin-bottom: $grid-gutter-width/2;
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.57);
+    text-transform: uppercase;
+    span{
+      display:block;font-size:52px;clear:both;
+    }
+
+    @media screen and (max-width: $container-tablet) {
+      font-size: $font-size-h4;
+      span{
+        font-size:32px;
+    }
+    }
+  }
+
+  .page-masthead-body {
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.57);
+
+    @media screen and (max-width: $container-tablet) {
+      font-size: 16px;
+    }
+  }
+
+  .page-masthead-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    @include box-shadow(inset 0 -3px 6px rgba(0, 0, 0, 0.27));
+    height: 100%;
+    width: 100%;
+  }
+}

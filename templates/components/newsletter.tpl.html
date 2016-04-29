@@ -1,0 +1,18 @@
+<article class="newsletter">
+  <header class="newsletter-header">
+    <h5>{{::newsletterTitle || "Subscribe"}}</h5>
+  </header>
+  <div class="newsletter-main">
+    <form class="form newsletter-form" action="https://uwaterloo.us11.list-manage.com/subscribe/post" method="POST">
+    <input type="hidden" name="u" value="f5194df42b6fc63ac2f0875eb">
+    <input type="hidden" name="id" value="e72507d8df">
+    <input type="hidden" name="MERGE2" value="Yes">
+    <input type="hidden" name="MERGE1" value="">
+      <div class="form-group newsletter-input">
+        <label for="email-{{newsletterId}}" class="sr-only">Email Address</label>
+        <input name="MERGE0" type="email" class="form-control" id="email-{{::newsletterId}}" placeholder="Your email address">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block newsletter-button">Submit</button>
+    </form>
+  </div>
+</article>

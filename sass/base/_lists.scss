@@ -1,0 +1,16 @@
+ul {
+  .post-content & {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+li {
+  .post-content & {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-light;
+    background: transparent url('../img/bullet.png') 16px 9px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 44px;
+  }
+}

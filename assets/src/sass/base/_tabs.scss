@@ -1,0 +1,56 @@
+.nav-tabs,
+.nav-tabs.tabs-justified {
+  background-color: #F5F5F5;
+  border-top: none;
+
+  > li > a {
+    border-bottom: none !important;
+    border-radius: 0 !important;
+    border-top: 1px solid $gray-base;
+    color: $gray-base;
+    font-family: $headings-font-family;
+    font-size: $font-size-extra-small;
+    font-weight: $font-weight-semibold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+    &:focus,
+    &:hover {
+      border-top: 1px solid $gray-base;
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  > li.active > a {
+    background-color: $gray-base !important;
+    border: none;
+    border-top: 1px solid $gray-base !important;
+    color: white !important;
+
+    &:focus,
+    &:hover {
+      background-color: $gray-base !important;
+      border: none;
+      border-top: 1px solid $gray-base !important;
+      color: white !important;
+    }
+  }
+}
+
+@media screen and (max-width: $container-desktop) {
+  .nav-justified > li > a,
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: $container-tablet) {
+  .nav-tabs,
+  .nav-tabs.tabs-justified {
+    > li:last-child > a {
+      border-bottom: 1px solid $gray-base;
+    }
+  }
+}

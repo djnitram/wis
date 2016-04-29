@@ -1,0 +1,25 @@
+.banner {
+  $banner-padding: 20px;
+  $banner-slogan-margin: 50px;
+  $banner-slogan-font-size: $font-size-extra-large;
+  $banner-slogan-font-weight: $font-weight-light;
+
+  padding: $banner-padding 0;
+
+  .banner-logo {
+    display: inline-block;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .banner-slogan {
+    font-size: $banner-slogan-font-size;
+    font-weight: $banner-slogan-font-weight;
+    display: inline-block;
+    margin-bottom: -0.3em;
+    margin-left: $banner-slogan-margin;
+    vertical-align: bottom;
+  }
+}

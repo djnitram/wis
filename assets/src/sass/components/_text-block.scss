@@ -1,0 +1,49 @@
+.text-block {
+  padding: $grid-gutter-width 0 $grid-gutter-width 0;
+
+  .text-block-header {
+    margin-bottom: $grid-gutter-width;
+    text-align: center;
+
+    h2 {
+      border-bottom: 3px solid #e1e1e1;
+      display: inline-block;
+      padding-bottom: 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  &.newsletter-mod {
+    background: #f5f5f5;
+    padding: $grid-gutter-width*2 0;
+    text-align: center;
+
+    p.home-content-intro {
+      margin-bottom: $grid-gutter-width;
+    }
+
+    .newsletter {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    .newsletter .btn.newsletter-button {
+      height: 53px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+    }
+
+    .newsletter .newsletter-input input.form-control {
+      padding-top: 11px;
+      padding-bottom: 11px;
+      height: 53px;
+    }
+  }
+
+  &.home-mod {
+    padding: $grid-gutter-width*2 0;
+    text-align: center;
+  }
+}

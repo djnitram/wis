@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "name": "Lazaridis  Institute",
+    "fullname": "The Lazaridis Institute for the Management of Technology Enterprises",
+    "link": "http:\/\/www.wlu.ca\/lazaridis-school-of-business-and-economics\/lazaridis-institute\/index.html",
+    "url": "http:\/\/www.wlu.ca\/lazaridis-school-of-business-and-economics\/lazaridis-institute\/index.html",
+    "logo": " ./assets/dist/img/sponsors/lazaridis-institute.png",
+    "level": "Growth Sponsor",
+    "role": "sponsor",
+    "description": "<p>The Lazaridis Institute for the Management of Technology Enterprises was created in 2015 to support growth-oriented Canadian technology companies. Developed through investments by Mike Lazaridis and the Government of Ontario, the Lazaridis Institute empowers current and emerging technology firms to scale rapidly into globally competitive organizations. The Lazaridis Institute is based at Wilfrid Laurier University in Waterloo, part of the Waterloo Region-Toronto Tech Corridor.<\/p>"
+  }
+]

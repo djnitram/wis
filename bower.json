@@ -1,0 +1,42 @@
+{
+  "name": "uwaterloo-frontend",
+  "version": "1.0.0",
+  "authors": [
+    "Wise & Hammer"
+  ],
+  "description": "Frontend for uwaterloo conference website",
+  "keywords": [
+    "angularjs",
+    "bootstrap",
+    "headless",
+    "drupal"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.4",
+    "angular-animate": "~1.4.5",
+    "angular-aria": "~1.4.5",
+    "angular-bootstrap": "~0.13.4",
+    "angular-mocks": "~1.4.5",
+    "angular-slick": "~0.2.1",
+    "angular-socialshare": "angularjs-socialshare#~0.1.13",
+    "angular-ui-event": "~1.0.0",
+    "angular-ui-map": "~0.5.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-router-anim-in-out": "~0.0.13",
+    "bootstrap-sass": "~3.3.5",
+    "faker": "Faker#~3.0.1",
+    "gsap": "~1.18.0",
+    "jquery.fitvids": "fitvids#~1.1.0",
+    "lodash": "~3.10.1",
+    "moment": "momentjs#~2.10.6",
+    "ngFitText": "~3.3.3",
+    "ngFx": "~1.1.0"
+  }
+}

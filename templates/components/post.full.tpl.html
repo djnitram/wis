@@ -1,0 +1,82 @@
+<article class="post full-mod post-{{vm.post.id}}">
+  <header class="post-header">
+    <div class="container">
+      <h1 ng-bind-html="::vm.post.title | sanitize"></h1>
+      <h3 ng-if="vm.post.subtitle">{{::vm.post.subtitle}}</h3>
+
+      <ul class="post-meta list-unstyled list-inline">
+        <li class="post-meta-published">Posted <b>{{::vm.post.published | date: 'MMMM d'}}</b> By <b>{{::vm.post.delegated_author.title}}</b></li>
+        <li class="post-meta-categories" ng-if="vm.post.topics">Categories: <b>Category 1</b>, <b>Category 2</b></li>
+        <li class="post-meta-comments" ng-if="vm.post.comments"><b><i class="fa fa-comment"></i> 203 Comments</b></li>
+      </ul>
+    </div>
+  </header>
+
+  <div ng-if="vm.post.featuredImage && !vm.post.intro" class="post-featured-image-banner" style="background-image: url({{vm.post.featuredImage}}); background-position:{{vm.post.backgroundPosition}}"></div>
+
+  <div class="post-quote" ng-if="vm.post.featuredImage && vm.post.intro" style="background-image: url({{vm.post.featuredImage}}); background-position:{{vm.post.backgroundPosition}}">
+    <div class="post-quote-screen"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="post-quote-content" ng-bind-html="::vm.post.intro | sanitize"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-main">
+    <div class="container">
+      <div ng-class="{'col-md-8': post.hasSidebar, 'col-md-12': !post.hasSidebar}">
+        <div class="post-content">
+          <div ng-bind-html="::vm.post.description_raw | sanitize"></div>
+        </div>
+      </div>
+      <div class="col-md-4" ng-if="post.hasSidebar">
+        {{author=vm.post.author;""}}
+        <div ng-include=" 'templates/components/author.tpl.html' "></div>
+        <div ng-include=" 'templates/components/newsletter.tpl.html' " ng-init="newsletterId='2'"></div>
+        <div ng-include=" 'templates/components/ad.tpl.html' "></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="post-footer">
+    <div class="container">
+      <div class="social-share">
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="#" class="btn btn-primary btn-lg btn-block btn-facebook"
+              socialshare
+              socialshare-provider="facebook"
+              socialshare-type="feed"
+              socialshare-via="{{config.fbid}}"
+              socialshare-display="popup"
+              socialshare-media="{{vm.post.facebookImage}}"
+              socialshare-description="{{vm.post.title}}"
+              socialshare-text="Waterloo Innovation Summit"
+              socialshare-url="{{config.url}}/blog/{{vm.post.id}}"
+              socialshare-media="{{vm.post.facebookImage}}"
+              socialshare-source=""
+              socialshare-redirect-uri="{{config.url}}/blog/{{vm.post.id}}">
+              <i class="fa fa-facebook"></i> Share on Facebook
+            </a>
+          </div>
+          <div class="col-sm-6">
+            <a href="#" class="btn btn-primary btn-lg btn-block btn-twitter"
+              socialshare
+              socialshare-provider="twitter"
+              socialshare-display="popup"
+              socialshare-text="{{vm.post.title}}"
+              socialshare-url="{{config.url}}/blog/{{vm.post.id}}"
+              socialshare-hashtags="WINS2015">
+              <i class="fa fa-twitter"></i> Share on Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</article>
+
+<div ng-if="vm.post.hasRelated" ui-view="related-posts"></div>

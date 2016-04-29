@@ -1,0 +1,10 @@
+<div class="sponsor">
+  <a href="{{::sponsor.url}}" title="{{::sponsor.name}}">
+    <img ng-src="{{::sponsor.logo}}" alt="{{::sponsor.name}}">
+  </a>
+</div>
+<div class="sponsor-detail">
+  <div class="sponsor-level" ng-bind-html="::sponsor.level | sanitize"></div>
+  <div class="sponsor-role" ng-bind-html="::sponsor.role | sanitize"></div>
+  <div class="sponsor-fullname" ng-bind-html="::sponsor.fullname | sanitize"></div>
+</div>

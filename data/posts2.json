@@ -1,0 +1,204 @@
+[
+  {
+    "id": "166",
+    "intro": "<div class='featured-header'>“AT THE CORE OF EVERY STARTUP ECOSYSTEM IS A NETWORK OF PEOPLE WHO TRUST EACH OTHER, BUILD TEAMS, RAISE MONEY AND FIND CUSTOMERS”</div><p>- BJOERN LASSE HERRMANN, FOUNDER &amp; CEO, COMPASS</p><p><small>Photo Credit: JD Lasica</small></p>",
+    "image": " ./assets/dist/img/posts/166-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/166.jpg",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/166-facebook.jpg",
+    "description": "Three years ago, Compass released a groundbreaking ranking of the world's top-20 startup regions. Waterloo Region, with a population of just over 500,000, ranked 16th — alongside global giants including Boston, London, Sydney and Berlin.",
+    "backgroundPosition":"left top",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/166-facebook.jpg"
+  },
+  {
+    "id": "171",
+    "intro": "<div class='featured-header'>TECH CENTRES CAN LEARN FROM WATERLOO’S <br>“REMARKABLE RESILIENCE.”</div><p>CATCH AJAY ROYAN’S FIRESIDE CHAT AT THE <br>WATERLOO INNOVATION SUMMIT</p><p><small>Photo credit: Christopher Michel</small></p>",
+    "image": " ./assets/dist/img/posts/171-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/171.jpg",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/171-facebook.jpg",
+    "description": "Few individuals understand the critical role of investment in successful innovation ecosystems better than Ajay Royan, who with Peter Thiel co-founded Mithril, a global tech-investment firm based in San Francisco. Since 2003, the pair has led investments in innovative companies across Silicon ...",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/171-facebook.jpg"
+  },
+  {
+    "id": "173",
+    "intro": "<div class='featured-header'>\"YOU'RE USED TO SEEING THE BORING, TOUGH-SKINNED BUREAUCRATS VERSUS THE EXCITING ZUCKERBERGS. SOMETIMES WE GET STUCK IN OUR VISUAL IMAGERY.\"</div><p>- MARIANA MAZZUCATO, AUTHOR, THE ENTREPRENEURIAL STATE: DEBUNKING PUBLIC VS PRIVATE SECTOR MYTHS</p>",
+    "image": " ./assets/dist/img/posts/173-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/173.jpg",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/173-facebook.jpg",
+    "description": "Mariana Mazzucato advises policy makers around the globe on innovation-led growth, arguing that government can be a dynamic partner to private enterprise. Challenge staid stereotypes with this world-renowned speaker and thinker at the Waterloo Innovation Summit. Below, Mazzucato shares some ...",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/173-facebook.jpg"
+  },
+  {
+    "id": "174",
+    "intro": "<div class='featured-header'>“COMPANIES WILL NEED TO ADAPT A NEW STRATEGY THAT EMBRACES DISRUPTION, SUSTAINING INNOVATION, AND EXECUTION.”</div><p>– STEVE BLANK, GODFATHER OF SILICON VALLEY</p>",
+    "image": " ./assets/dist/img/posts/174-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/174.jpg",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/174-facebook.jpg",
+    "description": "Steve Blank, renowned Silicon Valley entrepreneur, author and educator, is credited with the birth of the Lean Startup movement, now embraced around the globe. His iterative approach to adapting to change welcomes disruption and fosters innovation. Are you ready for an epiphany? Are you nimble ...",
+    "backgroundPosition":"right center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/174-facebook.jpg"
+  },
+  {
+    "id": "172",
+    "image": " ./assets/dist/img/posts/172-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/172.jpg",
+    "backgroundPosition":"right center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/172-facebook.jpg",
+    "intro": "<div class='featured-header'>WATERLOO &mdash;<br>\"THE RICHEST STARTUP ECOSYSTEM I’VE EVER SEEN\"</div><p>Salim Ismail, EXPONENTIAL ORGANIZATIONS AUTHOR, GLOBAL AMBASSADOR &amp; FOUNDING EXECUTIVE DIRECTOR – SINGULARITY UNIVERSITY</p>",
+    "description": "Waterloo Region may have the “richest startup ecosystem” Salim Ismail has ever seen, but he also says that we need more people doing “breakthrough and breakout thinking.” Are you making features or products? Are you being truly disruptive? How do you get there from here? Hear what this ..."
+  },
+  {
+    "id": "175",
+    "image": " ./assets/dist/img/posts/175-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/175.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/175-facebook.jpg",
+    "intro": "<div class='featured-header'>WHEN INDUSTRY WORKS HAND-IN-HAND WITH RESEARCHERS, OWNERSHIP OF INTELLECTUAL PROPERTY (IP) RIGHTS WORTH MILLIONS OF DOLLARS CAN BE AT STAKE.</div><p>In his new book, Innovation and Entrepreneurship are in the Waterloo Genome, historian Ken McLaughlin explores some of the pivotal moments that helped shape Canada’s innovation university.</p>",
+    "description": "At many institutions, IP rights are closely tied to corporate donations. Other universities view them as income. University of Waterloo was among the first universities to make their position clear: Intellectual property is owned by the inventor. It was a bold stance, and one that the institution ..."
+  },
+  {
+    "id": "176",
+    "image": " ./assets/dist/img/posts/176-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/176.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/176-facebook.jpg",
+    "intro": "<div class='featured-header'>HOW MANY TIMES HAS IT BEEN SAID: WHY DON'T WE BUILD A PLAYGROUND FOR ADULTS?</div><p>The Interactive Playground &ndash; a playground for adults &ndash; will be part of the Waterloo Innovation Summit 2015.</p>",
+    "description": "It's a chance to meet the inventive hackers, spirited engineers and innovative digital artists behind projects that have delighted users in North America and Europe, capping a full day of inspiration and energy at summit sessions on Thursday, Sept. 17. Two installations from Kitchener-based ..."
+  },
+  {
+    "id": "177",
+    "image": " ./assets/dist/img/posts/177-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/177.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/177-facebook.jpg",
+    "intro": "<div class='featured-header'>THE SEEDS OF WATERLOO'S VIBRANT STARTUP ECOSYSTEM WERE PLANTED 200 YEARS AGO IN FARMING.</div><p>Later on, the community evolved into a manufacturing hub built on boots, bacon and beverages.</p>",
+    "description": "Now Waterloo is also a focal point for insurance data management and a venue for world-class university education. It’s a community where innovation is not just imagined, but expected. These makers, managers, thinkers and dreamers have laid the foundations that have allowed the Waterloo ..."
+  },
+  {
+    "id": "178",
+    "image": " ./assets/dist/img/posts/178-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/178.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/178-facebook.jpg",
+    "intro": "<div class='featured-header'>WATERLOO'S INNOVATION SUMMIT KICKS OFF WITH ENTREPRENEURSHIP HOT SPOTS</div><p>'We want to get our students working in companies, but also get them doing innovation on campus. So this is an awesome example of what you guys are doing, and of what we could maybe do.'</p>",
+    "description": "Can you be tired and energized at the same time? A busload of Waterloo Innovation Summit participants seemed to be both: energized and talkative after six hours of touring the Waterloo innovation ecosytem, but happy to return to their hotel to prepare for Wednesday’s opening reception at the ..."
+  },
+  {
+    "id": "179",
+    "image": " ./assets/dist/img/posts/179-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/179.jpg",
+    "backgroundPosition":"left top",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/179-facebook.jpg",
+    "intro": "<div class='featured-header'>PUBLIC SECTOR INVESTMENT KEY TO INNOVATION ECONOMIES: MARIANA MAZZUCATO</div><p>The world needs a new role for government in the freewheeling private-capital research sector, says Mariana Mazzucato, whose controversial 2013 book, The Entrepreneurial State: Debunking Public Vs. Private Sector Myths, stirred the waters of the international economic community.</p>",
+    "description": "Mazzucato, saying that the discussions over public policy have “been rendered incredibly dry,” led an enthusiastic keynote address for 250 attendees at the Waterloo Innovation Summit, Thursday, Sept. 17 at the University of Waterloo. Book demolishes myth of intrusive government Mazzucato, whose ..."
+  },
+  {
+    "id": "180",
+    "image": " ./assets/dist/img/posts/180-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/180.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/180-facebook.jpg",
+    "intro": "<div class='featured-header'>'GOOD THINGS TAKE TIME' CHEN TELLS INNOVATION SUMMIT AUDIENCE</div><p>Blackberry is here for the long haul, and global demand for security and privacy will be key to its success, says John Chen, chief executive officer of the Waterloo-based smartphone innovator.</p>",
+    "description": "Security is important to enterprise; privacy is important to the individual.” Chen shared his ideas in a “fireside chat” with Thomson Reuters senior vice-president of innovation, Cary Burch, before the 250 attendees at the Waterloo Innovation Summit, Thursday, Sept. 17 at the University of ..."
+  },
+  {
+    "id": "181",
+    "image": " ./assets/dist/img/posts/181-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/181.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/181-facebook.jpg",
+    "intro": "<div class='featured-header'>INSTITUTIONS SHOULD FOCUS ON STRENGTHS, PARTNERSHIPS, SAY CANADIAN UNIVERSITY LEADERS</div><p>Co-operation among universities will be key to their success in pursuing high-level students and top-level funding.</p>",
+    "description": "That was one of the messages Thursday from a panel of four university leaders at the Waterloo Innovation Summit, at the University of Waterloo. The panelists &ndash; Suzanne Fortier, principal and vice-chancellor of McGill University; Meric Gertler, president of the University of Toronto; Feridun ..."
+  },
+  {
+    "id": "182",
+    "image": " ./assets/dist/img/posts/182-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/182.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/182-facebook.jpg",
+    "intro": "<div class='featured-header'>TAKING CHANCES ON INNOVATION REQUIRES APPETITE FOR RISK - BUT HOW MUCH?</div><p>There has to be risk-taking in science to solve the big problems, but the degree of risk divided the panelists in the Betting Big on Science Panel at the Waterloo Innovation Summit on Thursday.</p>",
+    "description": "Led by moderator Steve Woods, the Kitchener-Waterloo Google site manager, five panelists shared their thoughts and experiences with the 250 summit participants who came to explore the possibilities of the innovative ecosystem. Panellists ranged widely in their experiences: David Cory, deputy ..."
+  },
+  {
+    "id": "183",
+    "image": " ./assets/dist/img/posts/183-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/183.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/183-thumbnail.jpg",
+    "intro": "<div class='featured-header'>BIG COMPANIES NEED TO ACT LIKE SMALL COMPANIES TO COMPETE IN AN ERA OF DISRUPTIVE CHANGE</div><p>'Take a small team totally stealth and tell them to go disrupt another industry.': Salim Ismail</p>",
+    "description": "The Waterloo Innovation Summit became a foundry for disruption Thursday afternoon, with keynote speaker Salim Ismail, angel investor, tech strategist and global ambassador for Singularity University. The University of Waterloo alumnus (theoretical physics and computing, 1989) dazzled the audience ..."
+  },
+  {
+    "id": "184",
+    "image": " ./assets/dist/img/posts/184-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/184.jpg",
+    "backgroundPosition":"right center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/184-thumbnail.jpg",
+    "intro": "<div class='featured-header'>INNOVATION SUMMIT EXPLORES HOW BETTER CONNECTED COMMUNITIES, WILLINGESS TO TAKE CHANCE WILL FUEL INNOVATIVE GROWTH</div><p>The host had it right: the Waterloo Innovation Summit started the day with the view that government needs to be more involved in innovation, and ended the day with the news that government can’t possibly cope with the disruptive-data future awaiting it.</p>",
+    "description": "It was a huge landscape that summit chair David Fransen surveyed as welcomed an audience of 250 to the first full day of the annual innovation summit, at the University of Waterloo. The summit audience was still working over their morning coffee when they got a double-double of support for government’s role in the innovation economy."
+  },
+  {
+    "id": "185",
+    "image": " ./assets/dist/img/posts/185-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/185.jpg",
+    "backgroundPosition":"right center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/185-thumbnail.jpg",
+    "intro": "<div class='featured-header'>DURABILITY AND VALUE ARE WATCHWORDS FOR INVESTMENT, ROYAN SAYS</div><p>Some investors are blinded by the golden glow around tech and forget the basics of investment, says Ajay Royan, venture capitalist and co-founder of San Francisco-based Mithril Capital Management.</p>",
+    "description": "He was speaking in a “fireside chat” to the 250 attendees at the second day of presentations to the Waterloo Innovation Summit, held Friday at the Communitech Hub in Kitchener. Summit chair David Fransen noted that the Thursday sessions took place at the home of summit co-host University of ..."
+  },
+  {
+    "id": "186",
+    "image": " ./assets/dist/img/posts/186-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/186.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/186-thumbnail.jpg",
+    "intro": "<div class='featured-header'>TALENT NEEDS TO BE RECOGNIZED, NURTURED AND CONNECTED TO INDUSTRY</div><p>One of the keys for judging the success of an innovation cluster is how connected the nodes of activity are: Bjoern Lasse Herrmann</p>",
+    "description": "Collaboration, integration, mentoring and soft spaces were among the common elements of successful innovation ecosystems described by panelists in the Connectivity, Collaboration and Community session on Friday, Sept. 18 at the Waterloo Innovation..."
+  },
+  {
+    "id": "187",
+    "image": " ./assets/dist/img/posts/187-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/187.jpg",
+    "backgroundPosition":"center center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/187-thumbnail.jpg",
+    "intro": "<div class='featured-header'>WHEN IT COMES TO ACQUISITIONS AND PARTNERSHIPS, CULTURE IS KEY</div><p>Innovating within existing organizations is all about tapping into the potential of future employees or partner, but finding the right fit isn’t always easy.</p>",
+    "description": "Innovating within existing organizations is all about tapping into innovative future employees or companies, but finding the right fit is easier said than done, according to panelists..."
+  },
+  {
+    "id": "188",
+    "image": " ./assets/dist/img/posts/188-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/188.jpg",
+    "backgroundPosition":"left center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/188-thumbnail.jpg",
+    "intro": "<div class='featured-header'>REGARDLESS OF GEOGRAPHY, THE FIRST FIVE YEARS ARE CRITICAL FOR STARTUPS</div><p>With the first few years, a new company will figure out if it can get to $100 million or go global, says Jonathan Ortmans</p>",
+    "description": "The seeds for entrepreneurial culture have largely been sown around the world. The challenge now is to encourage their growth...."
+  },
+  {
+    "id": "189",
+    "image": " ./assets/dist/img/posts/189-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/189.jpg",
+    "backgroundPosition":"left center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/189-thumbnail.jpg",
+    "intro": "<div class='featured-header'>CREATOR OF LEAN STARTUP MOVEMENT CHALLENGES REGION: DO YOU WANT TO BE A FARM TEAM OR A GLOBAL LEADER?</div><p>Do you believe this is a jobs program for people who live here, or are you trying to attract people to come here? . . . That’s a meta-discussion that needs to be had.</p>",
+    "description": "A serial entrepreneur who’s been called one of 'the Godfathers of Silicon Valley' says Waterloo Region’s...."
+  },
+  {
+    "id": "190",
+    "image": " ./assets/dist/img/posts/190.thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/190.jpg",
+    "backgroundPosition":"left center",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/190-thumbnail.jpg",
+    "intro": "<div class='featured-header'>WATERLOO INNOVATION SUMMIT EXPLORES COMMON CHALLENGES AND OPPORTUNITIES FOR GLOBAL ECOSYSTEMS</div><p>The 250 innovators, entrepreneurs and academics in attendance were challenged to imagine great things for a knowledge-based economy in which Waterloo Region could play a leading role.</p>",
+    "description": "Imagine a global enterprise based in Waterloo Region. No, not BlackBerry. Well, it, too. Then imagine another one. And another one. And another one..."
+  },
+  {
+    "id": "192",
+    "intro": "<div class='featured-header'>“Resilient economies are made stronger by change and disruption”</div><p>- FERIDUN HAMDULLAHPUR, PRESIDENT &amp; VICE–CHANCELLOR, UNIVERSITY OF WATERLOO</p>",
+    "image": " ./assets/dist/img/posts/deep-thumbnail.jpg",
+    "featuredImage": " ./assets/dist/img/posts/deep.jpg",
+    "facebookImage": "https://www.waterlooinnovationsummit.com/assets/dist/img/posts/deep-facebook.jpg",
+    "description": "The Waterloo Innovation Summit provided three invigorating days for 250 innovators, entrepreneurs and academics gathered to take on a challenge: to imagine a great future for knowledge-based economies. We don’’t want the conversation to end.",
+    "backgroundPosition": "left top"
+  }
+]
