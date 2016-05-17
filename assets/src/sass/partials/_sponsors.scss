@@ -18,7 +18,7 @@
 .sponsor-intro-text{
   text-align:center;
   margin-top:$grid-gutter-width*2;
-  a {
+  a.sponsor-mailto {
     font-size:13px;
     @media screen and (min-width: $screen-xs) {
       font-size:inherit;

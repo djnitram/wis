@@ -3052,6 +3052,9 @@ ul.levels-list {
     font-size: 14px;
     font-weight: 400;
     margin-top: 10px; }
+  .slick-slide .sponsor-detail {
+    max-width: 260px;
+    margin: 0 auto; }
 
 .text-block {
   padding: 30px 0 30px 0; }
@@ -3429,10 +3432,10 @@ img.proximity-map {
 .sponsor-intro-text {
   text-align: center;
   margin-top: 60px; }
-  .sponsor-intro-text a {
+  .sponsor-intro-text a.sponsor-mailto {
     font-size: 13px; }
     @media screen and (min-width: 480px) {
-      .sponsor-intro-text a {
+      .sponsor-intro-text a.sponsor-mailto {
         font-size: inherit; } }
 
 .sponsors-list {

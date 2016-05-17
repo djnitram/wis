@@ -7,12 +7,26 @@
       <div class="row">
         <div class="col-md-12">
           <div class="post-content" ng-bind-html="vm.page.body | sanitize" ng-hide="$stateParams.slug == 'waterloos-innovation-ecosystem'"></div>
-
           <div ng-show="$stateParams.slug == 'waterloos-innovation-ecosystem'" ng-include=" 'templates/components/ecosystem.content.tpl.html' "></div>
           <div ng-show="$stateParams.slug == 'styleguide'" ng-include=" 'templates/components/styleguide.content.tpl.html' "></div>
-          <div ng-if="$stateParams.slug == 'register'" style="text-align:center">
-            <h4>Sold out this year, sign up for updates on next year’s Waterloo Innovation Summit</h4>
-            <div class="register-page-newsletter" ng-include=" 'templates/components/newsletter.tpl.html' " ng-init=" newsletterTitle='Subscribe for Updates'; newsletterId='1'"></div>
+          <div ng-if="$stateParams.slug == 'register'">
+             <h2>To register please fill out the form below.</h2>
+            <div style="width:100%; text-align:left;" >
+              <iframe  src="//eventbrite.ca/tickets-external?eid=23180961881&ref=etckt" frameborder="0" height="430" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+                <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" >
+              <a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.ca/r/etckt">Powered by Eventbrite</a>
+              </div>
+            </div>
+            <!-- <div class="register-page-newsletter" ng-include=" 'templates/components/newsletter.tpl.html' " ng-init=" newsletterTitle='Subscribe for Updates'; newsletterId='1'"></div> -->
+          </div>
+          <div ng-if="$stateParams.slug == 'vip'">
+            <h2>To register please fill out the form below.</h2>
+            <div style="width:100%; text-align:left;" >
+              <iframe  src="//eventbrite.ca/tickets-external?eid=23180961881&ref=etckt" frameborder="0" height="430" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+                <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" >
+              <a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.ca/r/etckt">Powered by Eventbrite</a>
+              </div>
+            </div>
           </div>
           <section class="all-videos" ng-show="vm.videos">
             <div class="loader" ng-show="vm.loadingVideos">
