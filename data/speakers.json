@@ -58,5 +58,61 @@
         "type": "Fireside Speaker",
         "avatar": " ./assets/dist/img/speakers/paul-desmarais.jpg",
         "featuredAvatar": " ./assets/dist/img/speakers/paul-desmarais.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Seth Shapiro",
+        "firstName": "Seth",
+        "lastName": "Shapiro",
+        "jobTitle": "Principal",
+        "company": "New Amsterdam Media",
+        "role": "Principal, New Amsterdam Media",
+        "bio": "<p>Seth Shapiro likes things messy. It&rsquo;s the environment of innovation. As principal of New Amsterdam Media, a business consultancy, Shapiro enjoys being a pathfinder through shaken economies and disrupted sectors. Companies that have sought his advice include Walt Disney Company, Intel and Universal Pictures. Go digital, he tells them. Don&rsquo;t just pitch to customers, connect with them. <\/p><p>Shapiro&rsquo;s expertise in television and digital media, his remarkable ability to see over the horizon to report on trends in such areas as virtual reality and augmented reality, make him an in-demand speaker around the world. Nearly 30 digital services, on platforms ranging from television to mobile devices, bear his intellectual stamp. Shapiro graduated magna cum laude from New York University and was an Adelbert Alumni Scholar at Case Western Reserve University and the Cleveland Institute of Music. He is an adjunct professor at the University of Southern California (USC) School of Cinematic Arts, a governor of the Television Academy and a two-time Emmy Award winner. Shapiro shares his expertise with a number of ongoing projects, committees and councils, including the USC Annenberg Innovation Lab. He published a book this year, Television: Innovation, Disruption and The World&rsquo;s Most Powerful Medium. Change, he says, is not about the terrain; it&rsquo;s about how you adapt to it.<\/p>",
+        "twitter": "",
+        "handle": "",
+        "avatar": " ./assets/dist/img/speakers/seth-shapiro.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/seth-shapiro.jpg"
+    },
+     {
+        "id": "6",
+        "name": "Antoine van Agtmael",
+        "firstName": "Antoine",
+        "lastName": "van Agtmael",
+        "jobTitle": "Analyst, advisor",
+        "company": "",
+        "role": "Analyst, advisor",
+        "bio": "<p>In the early 1980s, when the West didn&rsquo;t think much of economic competition outside Europe and North America, Antoine van Agtmael took a different perspective. He respectfully described Asia, Africa and other areas as &ldquo;emerging markets.&rdquo; The term soon became common in business conversation as India and China grew into powerhouse economies while Western leaders watched their own factories close. The lesson? Change. Innovate. Don&rsquo;t get smug. As a senior advisor at Washington, D.C.-based Garten Rothkopf, a public-policy advisory firm, van Agtmael keeps watch on trends and shifts. <\/p><p>He and Fred Bakker published The Smartest Places on Earth, which looks at how old manufacturing hubs in Europe and the United States are embracing the new knowledge economy. Erasmus University in the Netherlands, Yale University and New York University count van Agtmael as an alumnus. He was deputy director of the capital markets department at International Finance Corporation (where he built the IFC Emerging Markets Database) before founding Emerging Markets Management LLC in 1987. His board interests include the Brookings Institution, a non-profit research think tank in Washington, D.C.; and the NPR Foundation, which raises funds for National Public Radio in the U.S. He chaired the foundation board for several years.<\/p>",
+        "twitter": "",
+        "handle": "",
+        "avatar": " ./assets/dist/img/speakers/antoine-vanagtmael.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/antoine-vanagtmael.jpg"
+    },
+      {
+        "id": "7",
+        "name": "Fred Bakker",
+        "firstName": "Fred",
+        "lastName": "Bakker",
+        "jobTitle": "author",
+        "company": "",
+        "role": "author",
+        "bio": "<p>Writer Fred Bakker saw more hope than loss in the former industrial cities he visited in Europe and the United States with analyst Antoine van Agtmael. The two teamed up to publish a book about it, The Smartest Places on Earth, which comes with an equally bullish subtitle, Why Rustbelts are the Emerging Hotspots of Global Innovation. They found tech companies thriving in old plants that once produced such goods as steel, tires and oatmeal. Universities and colleges are there, too, training workers and undertaking research to feed this hungry innovation revolution. It&rsquo;s a side-by-side relationship understood in Waterloo Region, Canada, where post-secondary institutions support both the established tech sector and companies taking shape in the Communitech Hub.<\/p><p>Bakker studied at the University of Amsterdam, worked as an analyst at the Nederlandsche Middenstandsbank, then moved into what would soon become a disrupted industry — print media. Until his retirement in 2014, Bakker spent nearly 30 years in various roles — including editor-in-chief — at Het Financieele Dagblad (FD), known as the &ldquo;Financial Times of Holland.&rdquo; Change left him unfazed. He simply adapted, moving into business radio, websites and other outlets to extend FD&rsquo;s influence. <\/p>",
+        "twitter": "",
+        "handle": "",
+        "avatar": " ./assets/dist/img/speakers/fred-bakker.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/fred-bakker.jpg"
+    },
+      {
+        "id": "8",
+        "name": "Punit Soni",
+        "firstName": "Punit",
+        "lastName": "Soni",
+        "jobTitle": "Investor, advisor",
+        "company": "",
+        "role": "Investor, advisor",
+        "bio": "<p>Punit Soni brings strong credentials to the deal-making table. He has deep knowledge of mobile services and devices, and a keen sense that tech cultures don&rsquo;t have to function alike to drive a global innovation agenda. After several years as an executive at Google, including its Motorola division, Soni left Silicon Valley in 2015 to become chief product officer at Flipkart, India&rsquo;s largest e-commerce service. Now he&rsquo;s on own, investing in companies that tend, not surprisingly, to play in the mobile space. These include Razorpay, a payment gateway in India. <\/p><p>Soni earned an undergraduate degree in electronics and communications engineering at the National Institute of Technology in Kurukshetra, India; a masters degree in electrical engineering at the University of Wyoming; and a MBA (in venture capital) at the University of Pennsylvania. He worked as a software engineer before joining Google in 2007. There, he led teams that developed new products or improved established ones, such as the apps for Gmail and YouTube. Soni became vice-president product management of Google&rsquo;s recently acquired Motorola division, shoring up Motorola&rsquo;s flagging handset business by improving battery life and network connectivity in a series of new devices. One of those, Moto G, became a top-selling phone in India.<\/p>",
+        "twitter": "",
+        "handle": "",
+        "avatar": " ./assets/dist/img/speakers/punit-soni.jpg",
+        "featuredAvatar": " ./assets/dist/img/speakers/punit-soni.jpg"
     }
 ]
