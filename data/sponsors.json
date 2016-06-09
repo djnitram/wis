@@ -9,5 +9,16 @@
     "level": "Growth Sponsor",
     "role": "sponsor",
     "description": "<p>The Lazaridis Institute for the Management of Technology Enterprises was created in 2015 to support growth-oriented Canadian technology companies. Developed through investments by Mike Lazaridis and the Government of Ontario, the Lazaridis Institute empowers current and emerging technology firms to scale rapidly into globally competitive organizations. The Lazaridis Institute is based at Wilfrid Laurier University in Waterloo, part of the Waterloo Region-Toronto Tech Corridor.<\/p>"
+  },
+  {
+    "id": "15",
+    "name": "Virtual-Causeway",
+    "fullname": "Virtual Causeway",
+    "link": "http:\/\/www.v-causeway.com",
+    "url": "http:\/\/www.v-causeway.com",
+    "logo": " ./assets/dist/img/sponsors/virtual-causeway.png",
+    "level": "In-Kind",
+    "role": "sponsor",
+    "description": "<p>Virtual Causeway is a leading outsource provider of integrated sales, marketing, and technology services. We focus on Business-to-Business (B2B) activities specifically related to sales, marketing, and market research the high-tech industry.  In addition, we\u2019re Southern Ontario\u2019s largest CRM and Marketing Automation Integrator \u2013 focusing on Salesforce.com and Marketo implementations.<\/p>"
   }
 ]

@@ -11,6 +11,7 @@
         .getAll()
         .then(function(result) {
           vm.speakers = SpeakerService.filterByType(result.data, "Keynote Speaker");
+          vm.speakers = _.sortByAll(vm.speakers, ['lastName', 'firstName']);
         })
       ;
 

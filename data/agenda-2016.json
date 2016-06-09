@@ -1,0 +1,1313 @@
+[
+    {
+        "id":"1",
+        "date":"Sept 14",
+        "sessions": [
+                    {
+                        "id":"1",
+                        "excerpt":"<strong>Up Close and Personal:<\/strong> An Insider&rsquo;s View of the Waterloo Region Ecosystem From the outer limits of pure research to the on&ndash;the&ndash;ground realities of tech commercialization, this guided tour takes you into the innovative heart of a globally ranked ecosystem. ",
+                        "detail":null,
+                        "startTime":"10:30 am",
+                        "endTime":"5:00 pm",
+                        "moderators":null,
+                        "panelists":null,
+                        "speakers":null,
+                        "panel":false,
+                        "venue":null,
+                        "type":"Tour",
+                        "date": "Sept 14",
+                        "time": "11:00 am - 5:30 pm",
+                        "title": "Guided Tour of the Waterloo Region Ecosystem",
+                        "description": null
+                    },
+                    {
+                        "id":"3",
+                        "excerpt":"CIGI is located within close walking distance of the Delta Waterloo.",
+                        "detail":null,
+                        "startTime":"6:00 pm",
+                        "endTime":"9:00 pm",
+                        "moderators":null,
+                        "panelists":null,
+                        "speakers":null,
+                        "panel":false,
+                        "venue":[{
+                          "name":"The Centre for International Governance Innovation (CIGI)",
+                          "image":"cigi-400.jpg",
+                          "description":"Designed by KPMB, the architecturally award–winning CIGI Campus is a hub of Canadian–based research and studies in international affairs.",
+                          "latitude":"43.463645",
+                          "longitude":"-80.525616"
+                        }],
+                        "type":"Reception",
+                        "date": "Sept 14",
+                        "time": "6:00 - 9:00 pm",
+                        "title": "Welcome Reception",
+                        "description": "<p>CIGI is located within close walking distance of the Delta Waterloo.<\/p>",
+                        "locations": [
+                            "cigi"
+                        ]
+                        }
+                    ]
+                  },
+        {
+          "id":"2",
+        "date":"Sept 15",
+        "sessions": [
+            {
+                "id":"5",
+                "excerpt":"Shuttles from Delta Waterloo to the Unversity of Waterloo",
+                "detail":null,
+                "startTime":"7:45 am",
+                "endTime":"8:30 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[
+                  {
+                    "name":"Delta Waterloo",
+                    "image":"delta-400.jpg",
+                    "description":"Delta Waterloo is the leading inner city boutique style hotel offering vibrant, stylish and sophisticated hospitality.",
+                    "latitude":"43.462883",
+                    "longitude":"-80.5287597"
+                  },
+                  {
+                    "name":"Waterloo Inn Conference Hotel",
+                    "image":"waterloo-inn-400.jpg",
+                    "description":"One of the largest convention hotels in Waterloo, Ontario.",
+                    "latitude":"43.4903466",
+                    "longitude":"-80.5302894"
+                  }
+                ],
+                "type":"Shuttles",
+                "date": "Sept 15",
+                "time": "7:45 - 8:30 am",
+                "title": "Shuttles from Delta Waterloo to the Unversity of Waterloo",
+                "description": null,
+                "locations": [
+                    "delta"
+                ]
+            },
+            {
+                "id":"6",
+                "excerpt":"Registration & Continental Breakfast",
+                "detail":null,
+                "startTime":"8:00 am",
+                "endTime":"8:45 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"School of Accounting & Finance Atrium",
+                  "image":null,
+                  "description":null,
+                  "latitude":null,
+                  "longitude":null
+                }],
+                "type":"Break",
+                "date": "Sept 15",
+                "time": "8:00 - 8:45 am",
+                "title": "Registration & Continental Breakfast",
+                "description": null,
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"7",
+                "excerpt":"Welcoming Remarks",
+                "detail":null,
+                "startTime":"8:45 am",
+                "endTime":"9:00 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[{
+                    "id": "15",
+                    "name": "Feridun Hamdullahpur",
+                    "firstName": "Feridun",
+                    "lastName": "Hamdullahpur",
+                    "jobTitle": "President and Vice&ndash;Chancellor",
+                    "company": "University of Waterloo",
+                    "role": "President and Vice&ndash;Chancellor, University of Waterloo",
+                    "bio": "<p>Feridun Hamdullahpur was appointed president and vice&ndash;chancellor of the University of Waterloo on March 11, 2011.<\/p><p>A professor of mechanical engineering, Dr. Hamdullahpur earned his bachelor&rsquo;s and master&rsquo;s degrees in Mechanical Engineering at the Technical University of Istanbul, Turkey and his Ph.D. in chemical engineering at the Technical University of Nova Scotia.<\/p><p>Throughout his career spanning over 35 years, Dr. Hamdullahpur has been an active researcher in thermo&ndash;fluids and energy engineering, a passionate teacher and an academic administrator. He has authored hundreds of scientific and academic publications and supervised over 50 graduate students. He was named a Fellow of the Canadian Academy of Engineering in June, 2014.<\/p><p>President Hamdullahpur&rsquo;s central motivation is ensuring that the impact of University education, research and scholarship on our broader society is maximized through constant reform and innovation in the higher education sector. He has been a strong advocate and leader for the value of basic research and its influence on education, economy and prosperity.<\/p>",
+                    "twitter": "uwaterloopres",
+                    "handle": "uwaterloopres",
+                    "avatar": " ./assets/dist/img/speakers/feridun-hamdullahpur.jpg",
+                    "featuredAvatar": " ./assets/dist/img/speakers/feridun-hamdullahpur.jpg"
+                },
+                {
+                    "id": "13",
+                    "name": "David Fransen",
+                    "firstName": "David",
+                    "lastName": "Fransen",
+                    "jobTitle": "Chair",
+                    "company": "Waterloo Innovation Summit",
+                    "role": "Chair, Waterloo Innovation Summit",
+                    "bio": "<p>David was Consul General for Canada in Los Angeles (2008&ndash;14) and is now Chair of the Waterloo Innovation Summit; and Executive in Residence, Global Partnerships at Ontario Centres of Excellence.<\/p><p>Over the course of more than 33 years as a public servant, David served as a senior executive with the federal government, academia, and the diplomatic corps. He launched his career in 1980 at the Department of Finance, moving to increasingly senior positions in a variety of departments (National Defence, Canadian Security Intelligence Service, Privy Council Office, Industry Canada, Health Canada, Foreign Affairs & International Trade).<\/p><p>In January 2006, David moved to \u201cCanada&rsquo;s most innovative university\u201d, the University of Waterloo (UW), becoming the first&ndash;ever Executive Director of the Institute for Quantum Computing, and Associate Vice&ndash;President (Strategic Relations).<\/p><p>David has a PhD in History from the University of Toronto, a BA and MA from the University of Waterloo, and a Bachelor of Theology from Canadian Mennonite Bible College.<\/p>",
+                    "twitter": "dwfransen",
+                    "handle": "dwfransen",
+                    "avatar": " ./assets/dist/img/speakers/david-fransen.jpg",
+                    "featuredAvatar": " ./assets/dist/img/speakers/david-fransen.jpg"
+                    }
+                ],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Talk",
+                "date": "Sept 15",
+                "time": "9:00 - 9:30 am",
+                "title": "Welcoming Remarks",
+                "description": null,
+                "introSpeakers": [
+                    "feridun-hamdullahpur"
+                ],
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"8",
+                "excerpt":"Opening Keynote Address",
+                "detail":null,
+                "startTime":"9:00 am",
+                "endTime":"9:30 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[{
+                    "id": "3",
+                    "name": "TBC",
+                    "firstName": "TBC",
+                    "lastName": "TBC",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Keynote Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Talk",
+                "date": "Sept 15",
+                "time": "9:00 - 9:30 am",
+                "title": "Opening Keynote Address: TBC",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"9",
+                "excerpt":"Keynote Address",
+                "detail":null,
+                "startTime":"9:30 am",
+                "endTime":"10:15 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[{
+                    "id": "3",
+                    "name": "Anita Sands",
+                    "firstName": "Anita",
+                    "lastName": "Sands",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Keynote Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Talk",
+                "date": "Sept 15",
+                "time": "9:30 - 10:15 am",
+                "title": "Keynote Address: Anita Sands",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"10",
+                "excerpt":"Networking Break",
+                "detail":null,
+                "startTime":"10:15 am",
+                "endTime":"11:00 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Break",
+                "date": "Sept 15",
+                "time": "10:15 - 11:00 am",
+                "title": "Networking Break",
+                "description": null,
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"11",
+                "excerpt":"Keynote Address",
+                "detail":"",
+                "startTime":"11:00 am",
+                "endTime":"12:00 pm",
+                "moderators":null,
+                "panelists":null,
+                 "speakers":[{
+                    "id": "3",
+                    "name": "Walter Isaacson",
+                    "firstName": "Walter",
+                    "lastName": "Isaacson",
+                    "jobTitle": "President and CEO",
+                    "company": "The Aspen Institute",
+                    "role": "President and CEO",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Keynote Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Talk",
+                "date": "Sept 15",
+                "time": "11:00 - 12:00 pm",
+                "title": "Keynote Address: Walter Isaacson",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"12",
+                "excerpt":"Lunch and Networking",
+                "detail":"",
+                "startTime":"12:00 pm",
+                "endTime":"12:20 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":true,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Shuttles",
+                "time": "12:00 pm - 12:20 pm",
+                "title": "Shuttles to QNC",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ],
+                "moderators-old": [
+                    "simona-chiose"
+                ],
+                "panelists-old": [
+                    "suzanne-fortier",
+                    "meric-gertler",
+                    "feridun-hamdullahpur",
+                    "nigel-thrift"
+                ]
+            },
+            {
+                "id":"13",
+                "excerpt":"",
+                "detail":null,
+                "startTime":"12:00 pm",
+                "endTime":"1:30 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Break",
+                "date": "Sept 15",
+                "time": "12:00 - 1:30 pm",
+                "title": "Lunch and Networking",
+                "description": null,
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"14",
+                "excerpt":"",
+                "detail":null,
+                "startTime":"1:10 pm",
+                "endTime":"1:30 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":true,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Workshop",
+                "date": "Sept 15",
+                "time": "1:10 - 1:30 pm",
+                "title": "Leave for Workshops",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"15",
+                "excerpt":"Workshop",
+                "detail":null,
+                "startTime":"1:30 pm",
+                "endTime":"2:45 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[{
+                    "id": "3",
+                    "name": "TBC",
+                    "firstName": "TBC",
+                    "lastName": "TBC",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Workshop",
+                "date": "Sept 15",
+                "time": "1:30 - 2:45 pm",
+                "title": "National Innovation Policy Workshop - Part 1",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"16",
+                "excerpt":"Workshop",
+                "detail":null,
+                "startTime":"1:30 pm",
+                "endTime":"2:45 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[{
+                    "id": "3",
+                    "name": "Seth Shapiro",
+                    "firstName": "Seth",
+                    "lastName": "Shapiro",
+                    "jobTitle": "Principal",
+                    "company": "New Amsterdam Media",
+                    "role": "Principal",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Workshop",
+                "date": "Sept 15",
+                "time": "1:30 - 2:45 pm",
+                "title": "Managing Disruption Workshop - Part 1",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"17",
+                "excerpt":"Workshop",
+                "detail":null,
+                "startTime":"1:30 pm",
+                "endTime":"2:45 pm",
+                "moderators":null,
+                "panelists":null,
+                 "speakers":[{
+                    "id": "3",
+                    "name": "TBC",
+                    "firstName": "TBC",
+                    "lastName": "TBC",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Workshop",
+                "date": "Sept 15",
+                "time": "1:30 - 2:45 pm",
+                "title": "Scaling Up Workshop - Part 1",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"18",
+                "excerpt":"Networking Break",
+                "detail":null,
+                "startTime":"2:45 pm",
+                "endTime":"3:15 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":null,
+                "type":"Break",
+                "date": "Sept 15",
+                "time": "2:45 - 3:15 pm",
+                "title": "Networking Break",
+                "description": null
+            },
+            {
+                "id":"19",
+                "excerpt":"Workshop",
+                "detail":null,
+                "startTime":"3:15 pm",
+                "endTime":"4:30 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[{
+                    "id": "3",
+                    "name": "TBC",
+                    "firstName": "TBC",
+                    "lastName": "TBC",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Workshop",
+                "date": "Sept 15",
+                "time": "3:15 - 4:30 pm",
+                "title": "National Innovation Policy Workshop - Part 2",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"20",
+                "excerpt":"Workshop",
+                "detail":null,
+                "startTime":"3:15 pm",
+                "endTime":"4:30 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[{
+                    "id": "3",
+                    "name": "Seth Shapiro",
+                    "firstName": "Seth",
+                    "lastName": "Shapiro",
+                    "jobTitle": "Principal",
+                    "company": "New Amsterdam Media",
+                    "role": "Principal",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Workshop",
+                "date": "Sept 15",
+               "time": "3:15 - 4:30 pm",
+                "title": "Managing Disruption Workshop - Part 2",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"21",
+                "excerpt":"Workshop",
+                "detail":null,
+                "startTime":"3:15 pm",
+                "endTime":"4:30 pm",
+                "moderators":null,
+                "panelists":null,
+                 "speakers":[{
+                    "id": "3",
+                    "name": "TBC",
+                    "firstName": "TBC",
+                    "lastName": "TBC",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Speaker",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"University of Waterloo; Mike & Ophelia Lazaridis Quantum Nano Centre",
+                  "image":"quantum-nano-400.jpg",
+                  "description":"The Mike & Ophelia Lazaridis Quantum–Nano Centre is at the heart of University of Waterloo’s cutting–edge research into quantum information science and nanotechnology.",
+                  "latitude":"43.47119",
+                  "longitude":"-80.544022"
+                }],
+                "type":"Workshop",
+                "date": "Sept 15",
+                "time": "3:15 - 4:30 pm",
+                "title": "Scaling Up Workshop - Part 2",
+                "description": "",
+                "locations": [
+                    "quantum-nano"
+                ]
+            },
+            {
+                "id":"22",
+                "excerpt":"Shuttles from UW to Delta Waterloo",
+                "detail":"",
+                "startTime":"4:30 pm",
+                "endTime":"5:00 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":null,
+                "type":"Shuttles",
+                "date": "Sept 15",
+                "time": "4:30 - 5:00 pm",
+                "title": "Shuttles from UW to Delta Waterloo",
+                "description": "",
+                "locations":null
+            },
+            {
+                "id":"23",
+                "excerpt":"Shuttles to Google from Delta Waterloo",
+                "detail":null,
+                "startTime":"5:15 pm",
+                "endTime":"",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":"",
+                "type":"Shuttles",
+                "date": "Sept 15",
+                "time": "5:15",
+                "title": "Shuttles to Google from Delta Waterloo",
+                "description": null,
+                "locations":null
+            },
+            {
+                "id":"24",
+                "excerpt":"Day 1 Reception at Google",
+                "detail":"",
+                "startTime":"6:00 pm",
+                "endTime":"8:00 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"Conrad Centre for the Performing Arts",
+                  "image":"conrad-arts-400.jpg",
+                  "description":"The Conrad Centre for the Performing Arts is a vibrant and dynamic cultural space in the heart of downtown Kitchener.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"Reception",
+                "date": "Sept 15",
+                "time": "6:00 - 8:00 pm",
+                "title": "Day 1 Reception",
+                "description": "",
+                "locations": [
+                    "google"
+                ]
+            },
+            {
+                "id":"25",
+                "excerpt":"Shuttles from Google to Delta Waterloo",
+                "startTime":"7:30 pm",
+                "endTime":"9:00 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":null,
+                "type":"Shuttles",
+                "date": "Sept 15",
+                "time": "7:30 - 9:00 p.m",
+                "title": "Shuttles from Google to Delta Waterloo",
+                "description": null,
+                "locations": [
+                    "google"
+                ]
+            }
+        ]},
+        {
+          "id":"3",
+        "date":"Sept 16",
+        "sessions": [
+            {
+                "id":"26",
+                "excerpt":"Shuttles from Delta Waterloo to the Communitech Hub",
+                "detail":null,
+                "startTime":"7:45 am",
+                "endTime":"8:30 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"Delta Waterloo",
+                  "image":"delta-400.jpg",
+                  "description":"Delta Waterloo is the leading inner city boutique style hotel offering vibrant, stylish and sophisticated hospitality.",
+                  "latitude":"43.462883",
+                  "longitude":"-80.5287597"
+                },
+                {
+                  "name":"Waterloo Inn Conference Hotel",
+                  "image":"waterloo-inn-400.jpg",
+                  "description":"One of the largest convention hotels in Waterloo, Ontario.",
+                  "latitude":"43.4903466",
+                  "longitude":"-80.5302894"
+                }],
+                "type":"Shuttles",
+                "date": "Sept 16",
+                "time": "7:45 - 8:30 am",
+                "title": "Shuttles from Delta Waterloo to the Communitech Hub",
+                "description": null,
+                "locations": [
+                    "delta"
+                ]
+            },
+            {
+                "id":"27",
+                "excerpt":"Registration & Breakfast",
+                "detail":null,
+                "startTime":"8:00 am",
+                "endTime":"8:45 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"Break",
+                "date": "Sept 16",
+                "time": "8:00 - 8:45 am",
+                "title": "Registration & Breakfast",
+                "description": null,
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"28",
+                "excerpt":"Welcome Remarks",
+                "detail":null,
+                "startTime":"8:45 am",
+                "endTime":"9:00 am",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[
+                {
+                    "id": "17",
+                    "name": "Iain Klugman",
+                    "firstName": "Iain",
+                    "lastName": "Klugman",
+                    "jobTitle": "CEO",
+                    "company": "Communitech",
+                    "role": "CEO, Communitech",
+                    "bio": "<p>Iain Klugman is the CEO of Communitech in Waterloo Region &ndash; Canada&rsquo;s hottest technology cluster. Under Iain&rsquo;s leadership, Communitech has become one of North America&rsquo;s leading tech enabling organizations, supporting the growth of more than 1,000 small, mid&ndash;sized and large technology companies. He believes passionately in the power of the entrepreneur&ndash;driven economy, and its ability to deliver big results for Canada.<\/p><p>Before joining Communitech in 2004, Iain&rsquo;s career spanned leadership roles in both the private and public sectors, including Director of Global Branding and Advertising for Nortel, Executive Director of Communications with CBC, CEO of a provincial crown corporation, and numerous roles with the Privy Council Office and Industry Canada. Iain began his career as an entrepreneur and has never lost his passion for tech and startups.  He sits on numerous local and national boards that include the business, academia and social sectors.<\/p><p>Iain holds an MBA from Wilfrid Laurier University, a Master&rsquo;s in Public Administration from Dalhousie, an HBA from Laurentian, and has completed the Advanced Program in Human Resources at the Rotman School of Management.<\/p>",
+                    "twitter": "iainklugman",
+                    "handle": "iainklugman",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                },
+                {
+                    "id": "6",
+                    "name": "David Fransen",
+                    "firstName": "David",
+                    "lastName": "Fransen",
+                     "jobTitle": "Chair",
+                    "company": "Waterloo Innovation Summit",
+                    "role": "Chair, Waterloo Innovation Summit",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                },
+                {
+                    "id": "8",
+                    "name": "Steve Farlow",
+                    "firstName": "Steve",
+                    "lastName": "Farlow",
+                     "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }
+                ],
+                "panel":false,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"Welcome",
+                "date": "Sept 16",
+                "time": "8:45 - 9:00 am",
+                "title": "Welcome Remarks",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+             
+            },
+            {
+                "id":"29",
+                "excerpt":"Keynote Address",
+                "detail":"",
+                "startTime":"9:00 am",
+                "endTime":"9:45 am",
+                "moderators":[
+                
+                ],
+                "panelists":null,
+                "speakers":[{
+                    "id": "26",
+                    "name": "Patty McCord",
+                    "firstName": "Patty",
+                    "lastName": "McCord",
+                    "jobTitle": "Leadership consultant",
+                    "company": "Leadership consultant",
+                    "role": "Leadership consultant",
+                    "bio": "",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }],
+                "panel":false,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"Talk",
+                "date": "Sept 16",
+                "time": "9:00 - 9:45 am",
+                "title": "Keynote Address: Patty McCord",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"32",
+                "excerpt":"Talent Dynamics Panel",
+                "detail":"",
+                "startTime":"10:00 am",
+                "endTime":"10:45 pm",
+                "moderators":[
+                {
+                    "id": "32",
+                    "name": "Janet Bannister",
+                    "firstName": "Janet",
+                    "lastName": "Bannister",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "avatar": "",
+                    "featuredAvatar":""  
+                }
+                ],
+                "panelists":[
+                {
+                    "id": "13",
+                    "name": "Mallorie Brodie",
+                    "firstName": "Mallorie",
+                    "lastName": "Brodie",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "avatar": "",
+                    "featuredAvatar":""
+                },                {
+                    "id": "5",
+                    "name": "Mike Wessinger",
+                    "firstName": "Mike",
+                    "lastName": "Wessinger",
+                    "jobTitle": "",
+                    "company": "",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }
+                ],
+                "speakers":null,
+                "panel":true,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"panel",
+                "date": "Sept 16",
+                "time": "10:00 - 10:45 pm",
+                "title": "Talent Dynamics Panel",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"31",
+                "excerpt":"Networking Break",
+                "detail":null,
+                "startTime":"10:45 am",
+                "endTime":"11:15 pm",
+                "moderators":"",
+                "panelists":"",
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"Break",
+                "date": "Sept 16",
+                "time": "10:45 am - 11:15 pm",
+                "title": "Networking Break",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"32",
+                "excerpt":"Fireside Chat: Paul Desmarais III and Mike Katchen",
+                "detail":"",
+                "startTime":"11:15 am",
+                "endTime":"12:00 pm",
+                "moderators":null,
+                "panelists":[
+                {
+                    "id": "13",
+                    "name": "Paul Desmarais III",
+                    "firstName": "Paul",
+                    "lastName": "Desmarais III",
+                    "jobTitle": "Vice-President",
+                    "company": "Power Corporation and Power Financial",
+                    "role": "Vice-President, Power Corporation and Power Financial",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Fireside Speaker",
+                    "avatar": "",
+                    "featuredAvatar":""
+                },                {
+                    "id": "5",
+                    "name": "Mike Katchen",
+                    "firstName": "Mike",
+                    "lastName": "Katchen",
+                    "jobTitle": "Founder and CEO",
+                    "company": "Wealth Simple",
+                    "role": "Founder and CEO, Wealth Simple",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Fireside Speaker",
+                    "avatar": " ",
+                    "featuredAvatar": ""
+                }
+                ],
+                "speakers":null,
+                "panel":true,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"panel",
+                "date": "Sept 16",
+                "time": "11:15 - 12:00 pm",
+                "title": "Fireside Chat: Paul Desmarais III and Mike Katchen",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"33",
+                "excerpt":"Fireside Chat: Antoine van Agtmael and Fred Bakker ",
+                "detail":"",
+                "startTime":"12:00 am",
+                "endTime":"12:45 pm",
+                "moderators":null,
+                "panelists":[
+                {
+                    "id": "13",
+                    "name": "Antoine van Agtmael",
+                    "firstName": "Antoine",
+                    "lastName": "van Agtmael",
+                    "jobTitle": "Analyst, adviser",
+                    "company": "Author",
+                    "rol": "Analyst, adviser",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Fireside Speaker",
+                    "avatar": "",
+                    "featuredAvatar":""
+                },                {
+                    "id": "5",
+                    "name": "Fred Bakker",
+                    "firstName": "Fred",
+                    "lastName": "Bakker",
+                    "jobTitle": "Author",
+                    "company": "Author",
+                    "role": "Author",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Fireside Speaker",
+                    "avatar": " ",
+                    "featuredAvatar": " "
+                }
+                ],
+                "speakers":null,
+                "panel":true,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"panel",
+                "date": "Sept 16",
+                "time": "12:00 - 12:45 pm",
+                "title": "Fireside Chat: Antoine van Agtmael and Fred Bakker",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"28",
+                "excerpt":"Lunch and Networking",
+                "startTime":"12:45 pm",
+                "endTime":"2:00 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"Break",
+                "date": "Sept 16",
+                "time": "12:45 - 2:00 pm",
+                "title": "Lunch and Networking",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"34",
+                "excerpt":"Fireside Chat: Punit Soni",
+                "detail":"",
+                "startTime":"2:00 pm",
+                "endTime":"2:45 pm",
+                "moderators":[
+                {
+                    "id": "32",
+                    "name": "Steve Woods",
+                    "firstName": "Steve",
+                    "lastName": "Woods",
+                    "jobTitle": "Site Director",
+                    "company": "Google Kitchener-Waterloo",
+                    "role": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "avatar": "",
+                    "featuredAvatar":""  
+                }
+                ],
+                "panelists":[
+                {
+                    "id": "13",
+                    "name": "Punit Soni",
+                    "firstName": "Punit Soni",
+                    "lastName": "Punit Soni",
+                    "jobTitle": "Investor, advisor",
+                    "company": "Investor, advisor",
+                    "role": "Investor, advisor",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "type": "Fireside Speaker",
+                    "avatar": "",
+                    "featuredAvatar":""
+                }
+                ],
+                "speakers":null,
+                "panel":true,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"panel",
+                "date": "Sept 16",
+                "time": "2:00 - 2:45 pm",
+                "title": "Fireside Chat: Punit Soni",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"35",
+                "excerpt":"Keynote Address",
+                "detail":"",
+                "startTime":"2:45 pm",
+                "endTime":"3:30 pm",
+                "moderators":"",
+                "panelists":"",
+                  "speakers":[
+                {
+                    "id": "13",
+                    "name": "Chamath Palihapitiya",
+                    "firstName": "Chamath",
+                    "lastName": "Palihapitiya",
+                    "jobTitle": "",
+                    "company": "",
+                    "rol": "",
+                    "bio": "",
+                    "twitter": "",
+                    "handle": "",
+                    "avatar": "",
+                    "featuredAvatar": ""
+                }
+                ],
+                "panel":false,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"talk",
+                "date": "Sept 16",
+                "time": "2:45 - 3:30 pm",
+                "title": "Keynote Address: Chamath Palihapitiya",
+                "description": "",
+                "locations": [
+                    "communitech"
+                ]
+            },
+            {
+                "id":"35",
+                "excerpt":"Closing Remarks",
+                "detail":null,
+                "startTime":"3:30 pm",
+                "endTime":"3:45 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":[
+                {
+                    "id": "13",
+                    "name": "David Fransen",
+                    "firstName": "David",
+                    "lastName": "Fransen",
+                    "jobTitle": "Chair",
+                    "company": "Waterloo Innovation Summit",
+                    "rol": "Chair, Waterloo Innovation Summit",
+                    "bio": "<p>David was Consul General for Canada in Los Angeles (2008&ndash;14) and is now Chair of the Waterloo Innovation Summit; and Executive in Residence, Global Partnerships at Ontario Centres of Excellence.<\/p><p>Over the course of more than 33 years as a public servant, David served as a senior executive with the federal government, academia, and the diplomatic corps. He launched his career in 1980 at the Department of Finance, moving to increasingly senior positions in a variety of departments (National Defence, Canadian Security Intelligence Service, Privy Council Office, Industry Canada, Health Canada, Foreign Affairs & International Trade).<\/p><p>In January 2006, David moved to \u201cCanada&rsquo;s most innovative university\u201d, the University of Waterloo (UW), becoming the first&ndash;ever Executive Director of the Institute for Quantum Computing, and Associate Vice&ndash;President (Strategic Relations).<\/p><p>David has a PhD in History from the University of Toronto, a BA and MA from the University of Waterloo, and a Bachelor of Theology from Canadian Mennonite Bible College.<\/p>",
+                    "twitter": "dwfransen",
+                    "handle": "dwfransen",
+                    "avatar": " ./assets/dist/img/speakers/david-fransen.jpg",
+                    "featuredAvatar": " ./assets/dist/img/speakers/david-fransen.jpg"
+                }
+                ],
+                "panel":false,
+                "venue":[{
+                  "name":"Communitech Hub",
+                  "image":"communitech-400.jpg",
+                  "description":"The Communitech Hub is a connector and catalyst bringing together startups, global brands, government agencies, academic institutions, tech incubators and accelerators to create an environment like no other.",
+                  "latitude":"43.4499866",
+                  "longitude":"-80.4896891"
+                }],
+                "type":"Talk",
+                "date": "Sept 16",
+                "time": "3:00 - 3:30 pm",
+                "title": "Closing Remarks",
+                "description": null,
+                "locations": [
+                    "communitech"
+                ],
+                "introSpeakers": [
+                    "david-fransen"
+                ]
+            },
+            {
+                "id":"25",
+                "excerpt":"Shuttles from Communitech Hub to Delta Waterloo",
+                "startTime":"3:45 pm",
+                "endTime":"4:15 pm",
+                "moderators":null,
+                "panelists":null,
+                "speakers":null,
+                "panel":false,
+                "venue":null,
+                "type":"Shuttles",
+                "date": "Sept 16",
+                "time": "3:45 - 4:145 p.m",
+                "title": "Shuttles from Communitech Hub to Delta Waterloo",
+                "description": null,
+                "locations": [
+                    "Communitech Hub"
+                ]
+            }
+        ]}
+]

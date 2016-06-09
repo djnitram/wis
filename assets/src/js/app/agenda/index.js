@@ -11,7 +11,7 @@
         function($stateProvider) {
           $stateProvider
             .state('app.agenda', {
-              url: '/agenda/:id',
+             url: '/agenda',
               views: {
                 'main@': {
                   templateUrl: "templates/pages/agenda.tpl.html",

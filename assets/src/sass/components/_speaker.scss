@@ -3,12 +3,12 @@
   @include clearfix;
 
   li {
-    @include make-md-column(3);
+    // @include make-md-column(3);
     margin-bottom: 50px;
-
-    &:nth-child(4n+1) {
-      clear: both;
-    }
+    min-height: 42rem;
+    // &:nth-child(4n+1) {
+    //   clear: both;
+    // }
 
     @media screen and (max-width: $container-md) {
       @include make-xs-column(6);
@@ -248,4 +248,21 @@
       }
     }
   }
+}
+.speaker-profile{
+  h2{margin-top:0;}
+}
+.pmccord{
+  margin:2rem 0 4rem 0;
+  clear:both;
+  h2{
+  text-align:center    
+  }
+
+}
+.question{
+  &:last-of-type{
+     margin-bottom:5rem;
+  }
+ 
 }

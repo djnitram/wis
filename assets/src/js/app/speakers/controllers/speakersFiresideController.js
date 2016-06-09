@@ -11,6 +11,7 @@
         .getAll()
         .then(function(result) {
           vm.speakers = SpeakerService.filterByType(result.data, "Fireside Speaker");
+          vm.speakers = _.sortByAll(vm.speakers, ['lastName', 'firstName']);
         })
       ;
 

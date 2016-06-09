@@ -12,7 +12,7 @@
     </header>
     <div class="row">
       <ul class="list-unstyled speakers-list">
-        <li ng-repeat="speaker in vm.speakers">
+        <li class="col-sm-2 col-md-3" ng-repeat="speaker in vm.speakers">
           <div ng-include=" 'templates/components/speaker.teaser.tpl.html' "></div>
         </li>
       </ul>

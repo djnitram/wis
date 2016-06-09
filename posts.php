@@ -1,5 +1,5 @@
 <?php
-$key = '595c4eb9bf3cd1c3f3f8c0e936158acf';
+$key = '7781d9959b0c3633c13355196f391062';
 $url = 'https://api.uwaterloo.ca/v2/blogs/waterloo-innovation-summit.json?key='.$key;
 
 $ch = curl_init();

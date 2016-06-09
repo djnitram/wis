@@ -773,6 +773,9 @@ h6, .post.full-mod .post-content .well h1, .post.full-mod .post-content .well .h
   .post-content p.lead, .post-content li.lead, .post-content dd.lead, .post-content dt.lead, .post-content blockquote.lead {
     font-size: 24px;
     font-weight: 400; }
+  .post-content p.highlight, .post-content li.highlight, .post-content dd.highlight, .post-content dt.highlight, .post-content blockquote.highlight {
+    font-size: 1.3em;
+    font-weight: 400; }
   .post-content p.caption, .post-content li.caption, .post-content dd.caption, .post-content dt.caption, .post-content blockquote.caption {
     font-size: 16px;
     font-style: italic; }
@@ -1184,7 +1187,7 @@ a:focus {
   margin-bottom: 2rem; }
 
 .home-intro-speakers-list {
-  line-height: 1.5em; }
+  line-height: 2em; }
   .home-intro-speakers-list a {
     color: #fcd450;
     display: inline-block;
@@ -1342,6 +1345,10 @@ a:focus {
 
 .home-intro-main {
   overflow: hidden; }
+
+.home-keynote-intro {
+  text-align: center;
+  margin-bottom: 50px; }
 
 .home-intro-footer {
   margin-top: 30px; }
@@ -1804,6 +1811,31 @@ p.home-intro-keynotes {
   height: auto;
   width: auto;
   max-width: 100%; }
+  .post.full-mod .post-content img.image-left {
+    width: 100%; }
+    @media screen and (min-width: 970px) {
+      .post.full-mod .post-content img.image-left {
+        width: auto;
+        float: left;
+        margin: 0 1em 1em 0; } }
+  .post.full-mod .post-content img.image-right {
+    width: 100%; }
+    @media screen and (min-width: 970px) {
+      .post.full-mod .post-content img.image-right {
+        width: auto;
+        float: right;
+        margin: 0 0 1em 1em; } }
+  .post.full-mod .post-content img.image-center {
+    width: 100%; }
+    @media screen and (min-width: 970px) {
+      .post.full-mod .post-content img.image-center {
+        width: auto;
+        display: block;
+        margin: auto; } }
+  .post.full-mod .post-content img.block-image {
+    display: block; }
+  .post.full-mod .post-content img.block-image.space-bottom-like-column {
+    margin-bottom: 20px; }
 
 .post.full-mod .post-content .well {
   -webkit-box-shadow: none;
@@ -2763,17 +2795,8 @@ p.home-intro-keynotes {
   clear: both; }
 
 .speakers-list li {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 50px; }
-  @media (min-width: 992px) {
-    .speakers-list li {
-      float: left;
-      width: 25%; } }
-  .speakers-list li:nth-child(4n+1) {
-    clear: both; }
+  margin-bottom: 50px;
+  min-height: 42rem; }
   @media screen and (max-width: 970px) {
     .speakers-list li {
       position: relative;
@@ -2996,6 +3019,18 @@ p.home-intro-keynotes {
     .modal-speaker .modal-speaker-card .modal-speaker-card-thumbnail img {
       max-width: none;
       width: 100%; }
+
+.speaker-profile h2, .speaker-profile .post.teaser-mod .post-header h1, .post.teaser-mod .post-header .speaker-profile h1, .speaker-profile .post.teaser-mod .post-header .home-intro .sold-out, .post.teaser-mod .post-header .home-intro .speaker-profile .sold-out, .speaker-profile .home-intro .post.teaser-mod .post-header .sold-out, .home-intro .post.teaser-mod .post-header .speaker-profile .sold-out, .speaker-profile .post.teaser-mod .post-header .post-quote .featured-header, .post.teaser-mod .post-header .post-quote .speaker-profile .featured-header, .speaker-profile .post-quote .post.teaser-mod .post-header .featured-header, .post-quote .post.teaser-mod .post-header .speaker-profile .featured-header {
+  margin-top: 0; }
+
+.pmccord {
+  margin: 2rem 0 4rem 0;
+  clear: both; }
+  .pmccord h2, .pmccord .post.teaser-mod .post-header h1, .post.teaser-mod .post-header .pmccord h1, .pmccord .post.teaser-mod .post-header .home-intro .sold-out, .post.teaser-mod .post-header .home-intro .pmccord .sold-out, .pmccord .home-intro .post.teaser-mod .post-header .sold-out, .home-intro .post.teaser-mod .post-header .pmccord .sold-out, .pmccord .post.teaser-mod .post-header .post-quote .featured-header, .post.teaser-mod .post-header .post-quote .pmccord .featured-header, .pmccord .post-quote .post.teaser-mod .post-header .featured-header, .post-quote .post.teaser-mod .post-header .pmccord .featured-header {
+    text-align: center; }
+
+.question:last-of-type {
+  margin-bottom: 5rem; }
 
 .speakers-search-bar {
   background-color: #f5f5f5;
@@ -3391,16 +3426,7 @@ img.proximity-map {
       margin-bottom: 0;
       text-transform: uppercase; }
   .keynote-speakers .speakers-list li {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 992px) {
-      .keynote-speakers .speakers-list li {
-        float: left;
-        width: 33.33333%; } }
-    .keynote-speakers .speakers-list li:nth-child(3n+1) {
-      clear: both; }
+    min-height: 50rem; }
 
 .all-speakers {
   background-color: white;

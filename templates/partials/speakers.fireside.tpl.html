@@ -6,7 +6,7 @@
 
     <div class="row">
       <ul class="list-unstyled speakers-list">
-        <li ng-repeat="speaker in vm.speakers">
+        <li class="col-sm-2 col-md-4" ng-repeat="speaker in vm.speakers">
           <div ng-include=" 'templates/components/speaker.keynote.tpl.html' "></div>
         </li>
       </ul>

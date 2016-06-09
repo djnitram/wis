@@ -18,7 +18,7 @@
       ;
 
       vm.search = {
-        date: "Sept 16",
+        date: "",
         type: ""
       };
 

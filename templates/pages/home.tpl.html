@@ -184,12 +184,13 @@
 <section class="home-keynote keynote-speakers">
   <div class="container">
     <header class="keynote-speakers-header">
-      <h2>Keynotes</h2>
+      <h2>Keynote Speakers</h2>
     </header>
     
     <div class="row">
+    <div class="col-sm-10 col-sm-offset-1 home-keynote-intro"><p>Innovation is imperative for growth. New ideas and new tools are essential to building strong foundations for global economic growth. The Waterloo Innovation Summit is the distinctive forum where the knowledge and experience of the world’s top business leaders, policy-makers and academics can be shared. Join us</p></div>
       <ul class="list-unstyled speakers-list">
-        <li ng-repeat="speaker in vm.keynoteSpeakers">
+        <li class="col-sm-2 col-md-3" ng-repeat="speaker in vm.keynoteSpeakers">
           <div ng-include=" 'templates/components/speaker.keynote.tpl.html' "></div>  
         </li>  
       </ul>

@@ -99,10 +99,41 @@
         margin-top: $grid-gutter-width;
       }
 
-      img {
+     img {
         height: auto;
         width: auto;
         max-width: 100%;
+        &.image-left {
+           width:100%;
+          @media screen and (min-width: $container-desktop) {
+            width:auto;
+            float:left; 
+            margin: 0 1em 1em 0;
+          }
+        }
+        &.image-right {
+         width:100%;
+          @media screen and (min-width: $container-desktop) {
+            width:auto;
+            float: right; 
+            margin: 0 0 1em 1em;
+          }
+        }
+        &.image-center {
+         width:100%;
+          @media screen and (min-width: $container-desktop) {
+            width:auto;
+            display: block; 
+            margin: auto;
+          }
+        }
+
+        &.block-image {
+          display: block;
+        }
+        &.block-image.space-bottom-like-column {
+          margin-bottom: 20px;
+        }
       }
 
       .well {

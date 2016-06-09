@@ -61,7 +61,11 @@ p, li, dd, dt, blockquote {
       font-size: $font-size-large;
       font-weight: $font-weight-normal;
     }
-
+    &.highlight{
+    font-size: 1.3em;
+    font-weight: $font-weight-normal;
+    // color: #555;
+    }
     &.caption {
       font-size: $font-size-extra-small;
       font-style: italic;

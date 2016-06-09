@@ -18,11 +18,12 @@
 
   .speakers-list {
     li {
-      @include make-md-column(4);
+      min-height:50rem;
+      // @include make-md-column(4);
 
-      &:nth-child(3n+1) {
-        clear: both;
-      }
+      // &:nth-child(3n+1) {
+      //   clear: both;
+      // }
     }
   }
 }

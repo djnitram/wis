@@ -145,7 +145,7 @@
 }
 .hp-proximity{margin-bottom:2rem;}
 .home-intro-speakers-list {
-  line-height: 1.5em;
+  line-height: 2em;
 
   a {
     color: $brand-primary;
@@ -273,7 +273,10 @@
 .home-intro-main {
   overflow: hidden;
 }
-
+.home-keynote-intro{
+  text-align:center;
+  margin-bottom:50px;
+}
 .home-intro-footer {
   margin-top: $grid-gutter-width;
 }
